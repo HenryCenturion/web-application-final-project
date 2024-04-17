@@ -1221,5 +1221,349 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
   
-<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//datos.jpg" alt="UPC">  
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//diagrama_bd.png" alt="UPC">  
 </div>
+
+# V. Product Design
+
+## 5.1. Software Configuration Management
+
+  ### 5.1.1. Software Development Environment Configuration
+
+- **Requierements Management:**
+  - Utilizaremos Pivotal Tracker como herramienta para gestionar de manera eficaz los user stories y las epics, garantizando que todos los miembros del equipo puedan acceder a ellos de forma sencilla e intuitiva.
+
+- **Product UX/UI Design:**
+  - Figma será la plataforma que emplearemos para llevar a cabo la creación de wireframes y la página de aterrizaje de nuestro proyecto, de manera fácil, eficaz y con gran eficiencia. Esto nos permitirá trabajar de manera más fluida y efectiva en el diseño y desarrollo del proyecto.
+
+- **Software Development:**
+  - **IDE:** JetBrain
+  - **HTML:** es la sigla que representa HyperText Markup Language, el cual es el lenguaje de marcado empleado en la construcción de páginas web.
+  - **CSS:** En castellano, “Cascading Style Sheets”, o CSS, es un lenguaje de diseño gráfico que se utiliza para dar formato y diseñar presentaciones de documentos estructurados que están escritos en HTML.
+
+### 5.1.2. Source Code Management
+
+  - Utilizamos GitHub como plataforma y sistema de control de versiones.
+  - En la parte del GitFlow, estamos utilizando las ramas "main" y el "develop"
+  - Además de las ramas predeterminadas, como grupo hemos creado la rama de tipo document el cual es para uso exclusivo del manejo de información del informe y el feature para el landing page
+    
+      - develop/informe
+      - feature/landing-page
+      
+<p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//fotito1.png" alt="UPC">
+</p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//gitflow.jpg" alt="UPC">
+</p>
+
+  ### 5.1.3. Source Code Style Guide & Conventions
+
+Las directrices para el formato del código fuente y las convenciones de codificación se establecen siguiendo las reglas específicas para el lenguaje HTML y el estilo de hoja de estilos que corresponde al CSS. Las principales pautas que consideraremos se presentarán de la siguiente manera:
+
+- **Declaración del tipo de documento HTML:**
+  - `<!DOCTYPE html>`
+
+- **Inclusión del idioma en la etiqueta html:**
+  - `<html lang="en">`
+
+- **Inclusión de las etiquetas esenciales dentro de la etiqueta html:**
+  - `<head>` y `<body>`
+
+- **Etiqueta Head:**
+  
+  - Dentro de la sección `<head>` de una página web, que no es visible para el usuario al visitarla, es común incluir diversas etiquetas, como metadatos (`<meta>`), enlaces para archivos y fuentes, entre otros elementos adicionales fundamentales incorporar a esta estructura principal que determina el título de la página web, que se define con `<title>`.
+
+- **Etiqueta Body:**
+  
+    - La etiqueta `<body>`, que es la parte visual de la página web, engloba todos los elementos que el usuario puede ver y experimentar. En esta sección, se utilizan las etiquetas `<header>`, `<main>` y `<footer>` para estructurar el contenido de la siguiente manera:
+    - La etiqueta `<header>` se emplea para la barra de navegación superior de la página.
+    - Etiqueta `<main>`: Contiene el contenido central e informativo de la página.
+    - Etiqueta `<footer>`: Se utiliza al final de la página para proporcionar información adicional o como soporte técnico y enlaces a redes sociales, entre otros.
+    
+- **Cierre de Etiquetas:**
+
+  - Cada etiqueta se cierra de manera apropiada, como por ejemplo `<title></title>`.
+  - En algunos casos, como `<meta charset="UTF-8">`, la etiqueta no requiere un cierre explícito.
+  - Etiquetas como `<ul>`, `<section>`, `<input>`, `<label>`, pueden incluir atributos como class e id.
+
+- **Hoja de Estilo - Styles:**
+
+  - En “styles.css”, se define el estilo que se aplicará a “index.html”.
+  - Se utilizan propiedades y valores predefinidos dentro de {} para modificar el aspecto de los elementos.
+
+- **Diseño Web Responsivo:**
+
+  - Esencial para que el contenido sea legible en computadoras, tabletas y teléfonos.
+  - Se logra con @media screen para diferentes anchos de pantalla.
+  
+### 5.1.4. Software Deployment Configuration
+
+La implementación de un software abarca los pasos, procesos y actividades necesarios para poner a disposición de los usuarios que visiten nuestro sitio web una actualización o un sistema. La configuración para desplegar la solución de manera satisfactoria para cada uno de nuestros productos digitales se llevará a cabo a través de un servidor (Git), junto con el uso de GitHub. Esto implica que cada archivo .html y .css será subido a un repositorio, permitiendo la configuración de cualquier parte del código de nuestra página web. Posteriormente, se ejecutará en un servidor de prueba para verificar el correcto funcionamiento y detectar posibles errores en el código. El proceso de implementación de un software consta de tres fases principales: preparación, pruebas y despliegue.
+
+  ## 5.2. Landing Page, Services & Applications Implementation
+  
+  ### 5.2.1. Sprint 1
+  
+  #### 5.2.1.1. Sprint Planning 1
+
+  | **Sprint #** | Sprint 1 |
+|---------------|----------|
+| **Sprint Planning Background** |  |
+| Date         | 2024-04-13 |
+| Time          | 12:16 AM |
+| Location     | Reunion virtual mediante videoconferencia. |
+| Prepared by | Mendez Lopez, Sebastian Alonso |
+| Attendees (to planning meeting) | Mendez Lopez, Sebastian Alonso / Atencio Castillo, John Alexis / Centurion Quintana, Henry Manuel / Frisancho Levano, Sebastian Mathias  |
+| **Sprint n - 1 Review Summary** | No hay resumen del sprint anterior, debido a que este es el primer sprint que se elabora. |
+| **Sprint n - 1 Retrospective Summary** | No hay retrospectiva del sprint anterior, debido a que este es el primer sprint que se elabora. |
+| **Sprint Goal & User Stories ** | |
+| Sprint n Goal | La implementacion correcta de la primera version del landing page. Consideramos que, en una escala de medicion, hemos cumplido un 8. |
+| Sprint n Velocity | 5 |
+| Sum of Story Points | 5 |
+
+  #### 5.2.1.2. Sprint Backlog 1
+  
+   | **ID** | **Title**                        | **ID of Assignment** | **Title of Assignment**                                     | **Description**                                                                                   | **Estimation (Hours)** | **Assigned by**       | **Status**      |
+|-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|----------------------|-----------------|
+| US23                          | Conocer acerca de la aplicacion web    | T01                                 | Crear seccion "Acerca de"       | Desarrollar el codigo en html, css y JS de la seecion "Acerca de"     | 1                      | Sebastián Méndez     | Done       |
+| US24                            |   Conocer los planes de la aplicacion web                                | T02                                 | Crear seccion "Planes"       | Desarrollar el codigo en html, css y JS de la seecion "Planes"                             | 1                      | Henry Centurion     | Done       |
+| US25                          |      Ver informacion de los desarrolladores                               | T03                                 | Crear seccion "Us"              |    Desarrollar el codigo en html, css y JS de la seecion "Us"                | 1                      | John Atencio     | Done       |
+| US26 y US27                              |    Preguntas frecuentes y contactarse con el soporte                           | T05                                 | Crear seccion "Contact"     |Desarrollar el codigo en html, css y JS de la seecion "Contact"                           | 1                      | Sebastián Frisancho     | Done     |
+
+  #### 5.2.1.3. Development Evidence for Sprint Review
+  | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
+  |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
+  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | ebdbd1e                                 | Initial commit       | Empty | 13/04/2024 |
+  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 326f262                                 | feat: Implement landing-page plan section       | Add plan section in landing-page for visitor visual | 13/04/2024 |
+  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 66e031b                                 | feat: Update index.html       | Implemented the members section | 13/04/2024 |
+  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | bced3d2                                 | feat: Update images folder       | Add arrow | 13/04/2024 |
+  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 9c82028                                 | feat: Update image folder       | Add footer icons | 13/04/2024 |
+  
+
+  #### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+ - No se realizo testing, debido a que es la primera implementacion del landing page.
+
+  #### 5.2.1.5. Execution Evidence for Sprint Review
+
+ - Hemos aprovechado el sprint para trabajar de manera colaborativa, cumplir con nuestros objetivos, y mejorar tanto nuestros productos como nuestros procesos de trabajo.
+
+ - Vista del landing page:
+
+Header:
+       
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//header.png" alt="UPC">
+</p>
+        Mid:
+     <br>
+     <br>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//mid.png" alt="UPC">
+</p>
+        Plans:
+     <br>
+     <br>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//plans.png" alt="UPC">
+</p>
+        Us:
+     <br>
+     <br>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//us.png" alt="UPC">
+</p>
+        Preguntas:
+     <br>
+     <br>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//questions.png" alt="UPC">
+</p>
+      Footer:
+     <br>
+     <br>
+  <p align="center">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//footer.png" alt="UPC">
+</p>
+  
+         
+- Link del video del landing page en el anexo
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+ - No se realizo services, debido a que el landing page no presenta servicios.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+  - No se utilizo ningun despliegue, debido a que el landing page no presenta evidencia de deployment por ser estatico.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+
+- **Primera Seccion (header)**: Se implemento la distribucion del header y su transparencia con el fondo. (Sebastian Mendez)
+- **Segunda Seccion**: Se realizaron los layouts de la pagina. (Henry Centurion)
+- **Tercera Seccion**: Se implementaron imagenes y titulos respectivos en cada seccion. (John Atencio)
+- **Cuarta Seccion**: Se implementaron contenidos e informacion que poseen los cuerpos, reemplazando los Lorem Ipsum. (Francis Mamani)
+- **Footer**: Se realizo el pie de pagina junto a las ideas que esta posee. (Sebastian Frisancho)
+
+## 5.3. Validation Interviews
+
+  ### 5.3.1. Diseño de Entrevistas
+
+- ¿Cuál es tu nombre completo?
+- ¿Qué edad tienes?
+- ¿Cuál es tu género?
+- ¿De qué departamento del Perú eres?
+- ¿Cuál es tu estado civil?
+- ¿Tienes profesión o estudias?
+- ¿Cómo suele ser tu día a día?
+
+- ¿Qué expectativas tienes de la aplicación web “D'Taquito”
+- ¿Crees que se debe agregar algunas funcionalidades a la landing page?
+- ¿Opinas que tiene un diseño minimalista?
+- ¿Crees que el landing page de "D'Taquito" es fácil de ingresar?
+- ¿El landing page explica de manera satisfactoria la misión de “D'Taquito”?
+- ¿Crees que el diseño e interfaz del landing page es bastante llamativo para el público?
+- ¿Recomendarías a tus familiares, amigos y conocidos el sitio web? ¿Por qué? ¿Qué recomendaciones o sugerencias darías para mejorar el landing page?
+
+  ### 5.3.2. Registro de Entrevistas
+
+Entrevista N°1:
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//entrevistado1.png" alt="UPC">
+
+- **Entrevistador:** Henry Centurion
+- **Entrevistado:** Patrizio Mere
+- **Sexo:** Masculino
+- **Edad:** 19 años
+- **Distrito:** San Miguel
+- **Duracion de la entrevista:** 4:01 minutos
+- **Resumen:** Patricio Elmere Cortés, un estudiante de 19 años de Lima, Perú, describe su día a día como ocupado pero con tiempo para actividades como el fútbol. Él espera que la aplicación web de Taquito mejore la organización para la reserva de canchas de fútbol, facilitando la reunión y el juego. Sugiere agregar puntos de referencia sobre las canchas importantes para atraer a más personas. Considera que el diseño del landing page es minimalista y fácil de usar. Opina que el landing page es fácil de ingresar y explica satisfactoriamente la misión de Taquito. Sugeriría agregar más imágenes y referencias al fútbol peruano para hacerlo más atractivo. Recomendaría el landing page a familiares y amigos interesados en el deporte.
+
+
+Entrevista N°2:
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//enrique.png" alt="UPC">
+
+- **Entrevistador:** Enrique Alarcon
+- **Entrevistado:** Henry Centurion
+- **Sexo:** Masculino
+- **Edad:** 19 años
+- **Distrito:** Lima
+- **Duracion de la entrevista:** 4:12 minutos
+- **Resumen:** Enrique Alonso Alarcón, un estudiante de 19 años de ingeniería electrónica de Lima, Perú, describe su día a día centrado en los estudios, con tiempo para jugar fútbol con amigos cuando es posible. Durante la entrevista de validación del producto, expresa su deseo de simplificar el proceso de reserva de canchas de fútbol y mesas de billar, buscando una experiencia más conveniente. Observa que la landing page de Taquito aborda los problemas actuales en la reserva de instalaciones deportivas, pero sugiere mejoras, como un calendario de disponibilidad en tiempo real. Enrique encuentra atractivo el diseño de la interfaz, y afirmo que recomendaría el sitio web a amigos y familiares.
+
+Entrevista N°3:
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//entrevistado3.png" alt="UPC">
+
+- **Entrevistador:** Henry Centurion
+- **Entrevistado:** Adriano Berrospi
+- **Sexo:** Masculino
+- **Edad:** 19 años
+- **Distrito:** Chaclacayo
+- **Duracion de la entrevista:** 3:40 minutos
+- **Resumen:** Adriano Berrospi, un estudiante de 19 años de Lima, soltero y estudiante de odontología en la Universidad San Martín, describe su rutina diaria como estudio por la mañana, actividades y juegos por la tarde, y sueño por la noche. Espera que la aplicación web "D'Taquito" facilite la reserva de canchas y encuentra simple la adaptación de la página. Considera que podría agregarse la funcionalidad de visualizar el calendario en la página principal para ver la disponibilidad de las canchas. Opina que el diseño es minimalista pero comprensible, y encuentra que la navegación es fácil. Cree que la página explica de manera satisfactoria la misión de "D'Taquito", pero sugiere incluir más imágenes relacionadas con la temática para hacerla más llamativa. Recomendaría el sitio web a familiares, amigos y conocidos porque considera que es una buena herramienta para encontrar espacios de juego en Lima.
+
+  ### 5.3.3. Evaluaciones segun heuristicas
+
+  Escala de severidad:
+Los problemas seran puntuados tomando en cuenta la siguiente escala de severidad
+
+|**Nivel**|**Descripción**|
+|---------|---------------|
+|1|Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.|
+|2|Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase|
+|3|Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.|
+|4|Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.|
+
+
+- **Problema #1:** Falta de imágenes relacionadas con la temática en el landing page.
+- **Severidad:** 2
+- **Heurística violada:** Diseño estético y minimalista
+- **Problema:** La falta de imágenes relacionadas con el fútbol puede limitar la atracción visual del usuario y su comprensión rápida de la temática del sitio.
+- **Recomendación:** Se sugiere, incluir más imágenes relacionadas con el fútbol para hacer el landing page más atractivo y representativo de la temática de reservas de canchas de fútbol.
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Euristicas1.png" width="400" height="300" alt="UPC">
+
+- **Problema #2:** Falta de funcionalidades interactivas como un calendario de disponibilidad en tiempo real en el landing page.
+- **Severidad:** 3
+- **Heurística violada:** Capacidad de reconocer, diagnosticar y recuperarse de errores
+- **Problema:** Los usuarios no pueden verificar la disponibilidad de las canchas en tiempo real, lo que puede causar frustración si la información no está actualizada.
+- **Recomendación:** Se sugiere, integrar un calendario de disponibilidad en tiempo real o un formulario de reserva rápida directamente en el landing page para mejorar la experiencia del usuario.
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Euristicas2.png" width="450" height="300" alt="UPC">
+
+- **Problema #3:** Falta de explicitud en la explicación de la misión de "D'Taquito" en el landing page.
+- **Severidad:** 1
+- **Heurística violada:** Visibilidad del estado del sistema
+- **Problema:** La misión de la aplicación no está claramente expresada en el landing page, lo que podría llevar a una comprensión incompleta por parte del usuario.
+- **Recomendación:** Se sugiere, mejorar la sección que explica la misión de la aplicación para hacerla más explícita y fácilmente comprensible para los usuarios.
+<img src="https://raw.githubusercontent.com//HenryCenturion///web-application-final-project//develop//images//Euristica3.png" width="450" height="300" alt="UPC">
+
+
+- **Problema #4:** Falta de amigabilidad visual con el público objetivo.
+- **Severidad:** 3
+- **Heurística violada:** Diseño estético y minimalista
+- **Problema:** La falta de imágenes y archivos gráficos puede afectar la amigabilidad visual del landing page con el público objetivo, especialmente aquellos interesados en el fútbol y el billar.
+- **Recomendación:** Se sugiere, agregar más imágenes y archivos gráficos relevantes para hacer el landing page más atractivo y amigable con el público objetivo.
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Euristica4.png" width="450" height="300" alt="UPC">
+
+- **Problema #5:** Falta de referencias visuales al fútbol peruano específicamente en el diseño del landing page.
+- **Severidad:** Moderada
+- **Heurística violada:** Diseño estético y minimalista
+- **Problema:** La falta de referencias visuales al fútbol peruano específicamente puede limitar la conexión emocional y la relevancia percibida por parte de los usuarios peruanos.
+- **Recomendación:** Incluir más imágenes y referencias visuales al fútbol peruano para hacer el landing page más relevante y atractivo para el público objetivo.
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Euristicas1.png" width="450" height="300" alt="UPC">
+
+
+## 5.4. Video About-the-Product
+
+Se encuentra en los anexos
+
+# Conclusiones
+
+En la dinámica urbana de Lima Metropolitana, los aficionados al fútbol y al billar se enfrentan a una problemática común: la dificultad para encontrar y reservar canchas y mesas de forma rápida y segura. Esta situación no solo frustra a los jugadores, sino que también limita las oportunidades para disfrutar de estos deportes tan populares en la ciudad.
+
+En las siguientes secciones, exploraremos en detalle las conclusiones extraídas del análisis del perfil de D´taquito, destacando su relevancia en el mercado actual, su enfoque centrado en el usuario y las oportunidades futuras para su crecimiento y desarrollo.
+
+- D'Taquito surgió al identificar una necesidad importante en el mercado de Lima Metropolitana: la dificultad para encontrar y reservar canchas de fútbol y mesas de billar de manera rápida, conveniente y segura. Observamos que muchos aficionados al fútbol y al billar enfrentaban obstáculos al intentar organizar partidos o simplemente disfrutar de una partida con amigos. La falta de una solución integral para este problema nos llevó a reconocer una oportunidad significativa para D'Taquito de satisfacer esta necesidad no abordada en el mercado.
+- La popularidad arraigada del fútbol y el creciente interés en el billar en Lima Metropolitana indican un mercado potencialmente vasto para D'Taquito. Nuestros estudios de mercado revelaron que una gran cantidad de personas, aproximadamente el 71.8% según nuestras encuestas, juegan fútbol al menos una vez a la semana. Además, un porcentaje significativo de estos jugadores expresó interés en la reserva de canchas sintéticas, lo que subraya aún más la demanda latente en el mercado. El hecho de que el 89.6% de los encuestados estén dispuestos a utilizar una plataforma digital para agilizar las reservas confirma la necesidad y el potencial de una solución como D'Taquito en el mercado.
+- D'Taquito se distingue en el mercado por ofrecer una experiencia de usuario superior y una solución integral para la reserva de instalaciones deportivas. Nuestra plataforma web ofrece una interfaz intuitiva y fácil de usar, permitiendo a los usuarios encontrar y reservar instalaciones desde cualquier dispositivo con acceso a Internet. La amplitud de opciones disponibles, combinada con información detallada sobre cada instalación, como fotos e instalaciones disponibles, resalta la propuesta de valor de D'Taquito. Además, la integración de opciones de pago seguro garantiza transacciones confiables y sin complicaciones para nuestros usuarios.
+- La plataforma de D'Taquito se centra en mejorar significativamente la experiencia del usuario al proporcionar una amplia gama de opciones de canchas y salones disponibles en diferentes ubicaciones. Nuestro objetivo es facilitar a los usuarios la búsqueda y reserva de instalaciones deportivas de manera rápida y sencilla. Además, la información detallada sobre cada instalación, combinada con opciones de pago seguro integradas, garantiza que los usuarios puedan tomar decisiones informadas y realizar transacciones de forma confiable a través de nuestra plataforma.Reconocemos que el éxito a largo plazo de D'Taquito depende de nuestra capacidad para adaptarnos y mejorar constantemente para satisfacer las necesidades cambiantes de nuestros usuarios. Planeamos expandirnos más allá de Lima Metropolitana y explorar oportunidades en otras ciudades y países. Además, estamos comprometidos con la mejora continua de nuestra plataforma, mediante la integración de nuevas características, la optimización para dispositivos móviles y la implementación de retroalimentación de los usuarios para garantizar que D'Taquito siga siendo líder en el mercado de reserva de instalaciones deportivas.
+
+
+# Bibliografia
+
+Atlassian. (s/f). *Configuration management*. Atlassian. Recuperado el 14 de abril de 2024, de https://www.atlassian.com/microservices/microservices-architecture/configuration-management
+
+Creasoft. (s/f). *Inicio*. Micancha.pe. Recuperado el 14 de abril de 2024, de https://www.micancha.pe/
+
+Donde juego. (s/f). *Dondejuegoapp.com*. Recuperado el 14 de abril de 2024, de https://www.dondejuegoapp.com/
+
+Muro, L. (2020, marzo). *Plataforma digital para la reserva de canchas sinteticas*. Repositorio Universidad de Lima. https://repositorio.ulima.edu.pe/bitstream/handle/20.500.12724/12082/Muro_Plataforma-digital-reserva-canchas.pdf?sequence=1&isAllowed=y
+
+*Reserva tu cancha al instante*. (s/f). ATC. Recuperado el 14 de abril de 2024, de https://alquilatucancha.com/
+
+Scholten, K. (2023, agosto 16). *Understanding agile: The Difference Between a Product Backlog and a User Story*. CardBoard. https://cardboardit.com/2023/08/understanding-agile-the-difference-between-a-product-backlog-and-a-user-story/
+
+*The C4 model for visualising software architecture*. (s/f). C4model.com. Recuperado el 14 de abril de 2024, de https://c4model.com/
+
+*The complete guide to Lean UX*. (2022, diciembre 13). Webflow. https://webflow.com/blog/lean-ux
+
+Vaidya, M. (2020, septiembre 5). *Accessibility: Guidelines for information architecture, UX design, and visual design*. IBM Design. https://medium.com/design-ibm/accessibility-guidelines-for-information-architecture-ux-design-and-visual-design-5ae33ed1d52d
+
+Zmijewski, B. (2024, enero 4). *Needfinding: Crafting products aligned with user needs*. Helio. https://helio.app/blog/the-needfinding-playbook-crafting-products-aligned-with-genuine-desires/
+
+# Anexos
+
+Enlace a los videos requeridos en carpeta distribuidas:
+https://drive.google.com/drive/folders/1iE1xiKvPzH0PWNAW2sPdyf1PzsnNDHEQ?usp=sharing
+
+As-is y to-be mapping Miro:
+https://miro.com/app/board/uXjVKUmcOCw=/?share_link_id=98435150377
+
+Enlace a figma:
+https://www.figma.com/file/9b5VMPb1CCHGYuWQkP2554/UX-Design?type=design&node-id=0%3A1&mode=design&t=K3kzNMJ1UGVbxDsc-1
+
+Enlace al repositorio en Github:
+https://github.com/HenryCenturion/web-application-final-project
