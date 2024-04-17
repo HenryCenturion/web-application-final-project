@@ -1205,7 +1205,7 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//diagram.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//diagrama_clases.png" alt="UPC">
 
 </div>
 
