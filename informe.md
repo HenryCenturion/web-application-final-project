@@ -766,6 +766,7 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
     - Espacio dentro del sistema de reservas donde los propietarios de una reserva pueden permitir que otros usuarios externos a sus grupos se unan a la reserva para completar el grupo o socializar.
 
 </div>
+
 # III. Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
@@ -1465,7 +1466,7 @@ Entrevista N°3:
 - **Duracion de la entrevista:** 3:40 minutos
 - **Resumen:** Adriano Berrospi, un estudiante de 19 años de Lima, soltero y estudiante de odontología en la Universidad San Martín, describe su rutina diaria como estudio por la mañana, actividades y juegos por la tarde, y sueño por la noche. Espera que la aplicación web "D'Taquito" facilite la reserva de canchas y encuentra simple la adaptación de la página. Considera que podría agregarse la funcionalidad de visualizar el calendario en la página principal para ver la disponibilidad de las canchas. Opina que el diseño es minimalista pero comprensible, y encuentra que la navegación es fácil. Cree que la página explica de manera satisfactoria la misión de "D'Taquito", pero sugiere incluir más imágenes relacionadas con la temática para hacerla más llamativa. Recomendaría el sitio web a familiares, amigos y conocidos porque considera que es una buena herramienta para encontrar espacios de juego en Lima.
 
-  ### 5.3.3. Evaluaciones segun heuristicas
+### 5.3.3. Evaluaciones según heurísticas
 
   Escala de severidad:
 Los problemas seran puntuados tomando en cuenta la siguiente escala de severidad
