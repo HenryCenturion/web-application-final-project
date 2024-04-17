@@ -767,3 +767,459 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
     - Espacio dentro del sistema de reservas donde los propietarios de una reserva pueden permitir que otros usuarios externos a sus grupos se unan a la reserva para completar el grupo o socializar.
 
 </div>
+# III. Requirements Specification
+
+## 3.1. To-Be Scenario Mapping
+
+<div style="text-align: justify;">
+  
+**User persona 1: Julian Ramos**
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//tofut.jpg" alt="UPC">
+
+**User persona 2: Andres Martinez**  
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//tobil.jpg" alt="UPC">
+
+**User persona 3: Juan Perez**
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//toowner.jpg" alt="UPC">
+
+</div>
+
+## 3.2. User Stories
+
+| Epic ID | Título | Descripción | Relacionado con (Story ID) |
+|------|-------------|--------|-|
+| EP01 | Gestión de cuentas de usuario | Como usuario quiero gestionar la creación y uso de mi cuenta para acceder a mi información | US01, US02, US03, US04 |
+| EP02 | Gestión de métodos de pago | Como usuario quiero gestionar mis métodos de pago por tarjeta para conocer detalles sobre esta | US05, US06, US07, US08 |
+| EP03 | Gestión de reservas de espacios de juego | Como usuario rentor quiero gestionar los espacios de juego para realizar mi reserva de manera correcta | US09, US10, US11, US12, US13, US14, US15 |
+| EP04 | Gestión de suscripciones | Como usuario quiero gestionar mis suscripciones para conocer detalles de los planes y membresía | US16, US17, US18, US19|
+| EP05 | Gestión de salas comunitarias | Como usuario quiero gestionar el uso de las salas comunitarias para socializar con otros jugadores | US20, US21, US22|
+| EP06 | Elementos de landing page | Como visitante quiero visualizar el contenido resaltante de una landing page para conocer sobre la aplicación web | US23, US24, US25, US26, US27 |
+| EP07 | Gestion de espacios de juego | Como propietario de un espacio de juego quiero gestionar mis locales para saber sus datos | US29, US30, US31 |
+| EP08 | Implementación de las funcionalidades backend | Como desarrollador quiero implementar las funcionalidades esenciales para que la aplicación web funcione | TS01, TS02, TS03, TS04, TS05, TS06, TS07, TS08, TS09, TS10, TS11|
+
+
+|User Story ID|Título|Descripción|Criterio de aceptación|<p>Relación (EPIC ID)</p><p></p>|
+| :-: | :-: | :-: | :-: | :-: |
+|US01|Registro de cuenta de usuario|Como usuario deseo registrarme para tener una cuenta|<p>***Escenario 1: Registro de cuenta exitoso***</p><p></p><p>Dado que el usuario se encuentra en la pantalla de registro de cuenta</p><p>Cuando el usuario ingresa los datos de su registro de cuenta completos y correctos en los campos: nombre, apellidos, edad, documento de identidad, teléfono, correo electrónico y contraseña</p><p>Y hace clic en el botón “Registrarse”</p><p>Entonces la aplicación crea la cuenta para el usuario</p><p>Y la aplicación web redirecciona al usuario a la página principal</p><p></p><p>***Escenario 2: Registro de cuenta fallido por insertar datos incorrectos***</p><p></p><p>Dado que el usuario se encuentra en la pantalla de registro de cuenta</p><p>Cuando el usuario ingresa los datos de su registro de cuenta incompletos e incorrectos en los campos: nombre, apellidos, edad, documento de identidad, teléfono, correo electrónico y contraseña</p><p>Y hace clic en el botón “Registrarse”</p><p>Entonces la aplicación web solicita que se corrijan los campos con la información correcta y completa</p><p></p><p>***Escenario 3: Registro de cuenta fallido por un correo ya registrado***</p><p></p><p>Dado que el usuario se encuentra en la pantalla de registro de cuenta</p><p>Cuando el usuario ingresa los datos de su registro de cuenta completos y correctos en los campos: nombre, apellidos, edad, documento de identidad, teléfono, correo electrónico y contraseña</p><p>Y hace clic en el botón “Registrarse”</p><p>Entonces la aplicación web muestra un mensaje de error indicando que ya existe un correo en uso</p>|EP01|
+|US02|Inicio de sesión de cuenta|Como usuario deseo poder ingresar a mi cuenta para usarla|<p>***Escenario 1: Éxito al iniciar sesión***</p><p></p><p>Dado que el usuario se encuentra registrado en la aplicación web </p><p>Y el usuario se encuentra en la pestaña de inicio de sesión</p><p>Cuando el usuario escriba correctamente su correo y/o su contraseña</p><p>Y haga clic en el botón "iniciar sesión"</p><p>Entonces la aplicación web llevará al usuario a la página principal</p><p></p><p>***Escenario 2: Error al iniciar sesión***</p><p></p><p>Dado que el usuario se encuentra registrado en la aplicación web </p><p>Y el usuario se encuentra en la pestaña de inicio de sesión</p><p>Cuando el usuario escriba incorrectamente su correo y/o su contraseña</p><p>Y haga clic en el botón "iniciar sesión"</p><p>Entonces la aplicación web notifica que ocurrió un error en los datos proporcionados</p><p>Y solicita al usuario ingresar sus datos correctos</p>|EP01|
+|US03|Ver perfil de usuario|Como usuario quiero acceder a mi perfil para ver mis datos personales|<p>***Escenario 1: Acceso a perfil***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic a su ícono en la esquina superior de la aplicación web</p><p>Y de clic a la sección “Perfil”</p><p>Entonces, la aplicación muestra la información de perfil del usuario</p>|EP01|
+|US04|Editar perfil de usuario|Como usuario deseo acceder a mi perfil para editar mis datos personales|<p>***Escenario 1: Edición de información correcta***</p><p></p><p>Dado que el usuario está dentro de la sección “Perfil”</p><p>Y da clic al botón “Editar perfil”</p><p>Cuando el usuario edita correctamente su información completa</p><p>Y da clic en el botón “Guardar”</p><p>Entonces la aplicación web actualiza la información del usuario.</p><p></p><p>***Escenario 2: Edición de información incorrecta***</p><p></p><p>Dado que el usuario está dentro de la sección “Perfil”</p><p>Y da clic al botón “Editar perfil”</p><p>Cuando el usuario edita incorrectamente su información</p><p>Y da clic en el botón “Guardar”</p><p>Entonces la aplicación web muestra un error</p><p>Y solicita al usuario corregir los campos necesarios</p>|EP01|
+|US05|Visualizar tarjetas como método de pago|Como usuario quiero visualizar mis tarjetas registradas para gestionarlas|<p>***Escenario 1: Ver información de pago***</p><p></p><p>Dado que el usuario está en la página principal</p><p>Cuando el usuario da clic a su ícono en la esquina superior de la aplicación web</p><p>Y selecciona la opción “Mi cartera”</p><p>Entonces la aplicación web muestra la información de pago del usuario</p>|EP02|
+|US06|Agregar una tarjeta como método de pago|Como usuario quiero agregar mi tarjeta para pagar mis reservas|<p>***Escenario 1: Éxito al agregar tarjeta***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Y da clic en “Agregar tarjeta”</p><p>Cuando el usuario introduce correctamente sus credenciales (nombre, número de tarjeta, expiración de la tarjeta y ccv)</p><p>Y da clic en “Guardar”</p><p>Entonces la aplicación web agrega la información de pago del usuario.</p><p></p><p>***Escenario 2: Error al agregar tarjeta por datos incorrectos***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Y da clic en “Agregar tarjeta”</p><p>Cuando el usuario introduce incorrectamente sus credenciales (nombre, número de tarjeta, expiración de la tarjeta y ccv)</p><p>Y da clic en “Guardar”</p><p>Entonces la aplicación web muestra un error en los datos ingresados</p><p>Y el usuario debe corregir los campos necesarios</p><p></p><p>***Escenario 3: Error al agregar tarjeta por una ya registrada anteriormente***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Y da clic en “Agregar tarjeta</p><p>Cuando el usuario introduce correctamente sus credenciales (nombre, número de tarjeta, expiración de la tarjeta y ccv)</p><p>Y da clic en “Guardar”</p><p>Entonces la aplicación web muestra un mensaje de error indicando que ya existe un método de pago idéntico</p>|EP02|
+|US07|Editar tarjeta como método de pago|Como usuario quiero editar la información de mi tarjeta para gestionarla|<p>***Escenario 1: Éxito al editar información de la tarjeta***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Y selecciona una tarjeta existente</p><p>Y da clic en “Editar”</p><p>Cuando el usuario introduce correctamente sus credenciales (nombre, número de tarjeta, expiración de la tarjeta y ccv)</p><p>Y da clic en “Guardar”</p><p>Entonces la aplicación web actualiza la información de pago del usuario.</p><p></p><p>***Escenario 2: Error al editar información de la tarjeta***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Y selecciona una tarjeta</p><p>Y da clic en “Editar”</p><p>Cuando el usuario introduce incorrectamente sus credenciales (nombre, número de tarjeta, expiración de la tarjeta y ccv)</p><p>Y da clic en “Guardar”</p><p>Entonces la aplicación web muestra un error por ingresar datos incorrectos</p><p>Y el usuario debe corregir los campos necesarios</p>|EP02|
+|US08|Borrar un método de pago|Como usuario quiero borrar una tarjeta para que ya no esté disponible|<p>***Escenario 1: Borrar tarjeta***</p><p></p><p>Dado que el usuario está en la página de información de pago</p><p>Cuando el usuario selecciona una tarjeta existente</p><p>Y da clic en “Borrar”</p><p>Entonces la aplicación web elimina el método de pago de la información de pago del usuario</p><p></p>|EP02|
+|US09|Visualizar características de los espacios de juego|<p>Como usuario quiero ver la información de los espacios de juego para conocer sus características</p><p></p>|<p>***Escenario 1: Acceso a la información de canchas de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Locales”</p><p>Y seleccione la opción “Canchas de futbol”</p><p>Entonces la aplicación web despliega todas las canchas de fútbol asociadas</p><p>Y el usuario selecciona una de las canchas para ver su información</p><p></p><p>***Escenario 2: Acceso a la información de salones de billar***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Locales”</p><p>Y seleccione la opción “Salones de billar”</p><p>Entonces la aplicación web despliega todos los salones de billar asociados</p><p>Y el usuario selecciona uno de los salones para ver su información</p>|EP03|
+|US10|Comparar características de los espacios de juego|<p>Como usuario quiero comparar los espacios de juego para conocer cual me conviene más</p><p></p>|<p>***Escenario 1: Comparar canchas de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los campos de fútbol</p><p>Cuando el usuario da clic en el botón “Comparar”</p><p>Y el usuario selecciona dos canchas de futbol</p><p>Entonces la aplicación web muestra ambas canchas seleccionadas</p><p>Y el usuario lee las características de ambas al mismo tiempo</p><p></p><p>***Escenario 2: Comparar canchas de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los salones de billar</p><p>Cuando el usuario da clic en el botón “Comparar”</p><p>Y el usuario selecciona dos salones de billar</p><p>Entonces la aplicación web muestra ambos salones seleccionados</p><p>Y el usuario lee las características de ambas al mismo tiempo</p>|EP03|
+|US11|Aplicar filtros de búsqueda|Como usuario quiero aplicar filtros para encontrar espacios de juego según mi preferencia|<p>***Escenario 1: Filtrar canchas de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los campos de fútbol</p><p>Cuando el usuario da clic en el botón “Filtrar”</p><p>Y el usuario selecciona sus filtros (tamaño, disponibilidad, ubicación, precio, etc.)</p><p>Entonces la aplicación web muestra las canchas de futbol que cumplan con los filtros</p><p></p><p>***Escenario 2: Filtrar salones de billar***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los salones de fútbol</p><p>Cuando el usuario da clic en el botón “Filtrar”</p><p>Y el usuario selecciona sus filtros (cantidad de mesas, calidad del equipo de billar, ubicación, precio, etc.)</p><p>Entonces la aplicación web muestra los salones de billar que cumplan con los filtros</p>|EP03|
+|US12|Ver horarios de los espacios de juego|Como usuario quiero ver la disponibilidad de los espacios de juego para elegir|<p>***Escenario 1: Ver horarios de canchas de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los campos de fútbol</p><p>Cuando el usuario da clic en el botón “Horarios”</p><p>Y el usuario selecciona una cancha de futbol</p><p>Entonces la aplicación web muestra todo el horario de la cancha seleccionada</p><p></p><p>***Escenario 2: Ver horarios de los salones de billar***</p><p></p><p>Dado que el usuario se encuentra en la página de visualización de los salones de billar</p><p>Cuando el usuario da clic en el botón “Horarios”</p><p>Y el usuario selecciona un salón de billar</p><p>Entonces la aplicación web muestra todo el horario del salón de billar seleccionado</p>|EP03|
+|US13|Reservar un espacio de juego|Como usuario quiero reservar un espacio de juego para divertirme jugando|<p>***Escenario 1: Reserva exitosa de un campo de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Reservar”</p><p>Y el usuario selecciona el deporte “Futbol”</p><p>Y elige la cancha de futbol de su preferencia</p><p>Y elige un horario disponible</p><p>Y elige una tarjeta como método de pago previamente guardada</p><p>Y da clic en “Pagar”</p><p>Entonces la reserva se realiza correctamente</p><p></p><p>***Escenario 2: Reserva fallida de un campo de fútbol***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Reservar”</p><p>Y el usuario selecciona el deporte “Futbol”</p><p>Y elige la cancha de futbol de su preferencia</p><p>Y elige un horario disponible</p><p>Y no elige una tarjeta como método de pago previamente guardada</p><p>Y da clic en “Pagar”</p><p>Entonces la reserva no se realiza correctamente</p><p>Y la aplicación web le pide al usuario que añada una tarjeta como método de pago</p><p></p><p>***Escenario 3: Reserva exitosa de una mesa de billar***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Reservar”</p><p>Y el usuario selecciona el deporte “Billar”</p><p>Y elige el salón de billar de su preferencia</p><p>Y elige la cantidad de jugadores que asistirán</p><p>Y elige un horario disponible</p><p>Y elige una tarjeta como método de pago previamente guardada</p><p>Y da clic en “Pagar”</p><p>Entonces la reserva se realiza correctamente</p><p></p><p>***Escenario 4: Reserva fallida de una mesa de billar***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic en el botón “Reservar”</p><p>Y el usuario selecciona el deporte “Billar”</p><p>Y elige el salón de billar de su preferencia</p><p>Y elige la cantidad de jugadores que asistirán</p><p>Y elige un horario disponible</p><p>Y no elige una tarjeta como método de pago previamente guardada</p><p>Y da clic en “Pagar”</p><p>Entonces la reserva no se realiza correctamente</p><p>Y la aplicación web le pide al usuario que añada una tarjeta como método de pago</p>|EP03|
+|US14|Ver reservas activas de un espacio de juego|Como usuario quiero ver mis reservas activas para gestionarlas|<p>***Escenario 1: Ver reservas activas***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic a su ícono en la esquina superior de la aplicación web</p><p>Y de clic a la sección “Historial”</p><p>Y el usuario selecciona “Reservas activas”</p><p>Entonces la aplicación web visualiza las reservas activas del usuario</p>|EP03|
+|US15|Ver historial de reservas de espacios de juego|Como usuario quiero ver mis reservas antiguas para visualizar su información|<p>***Escenario 1: Ver reservas antiguas***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic a su ícono en la esquina superior de la aplicación web</p><p>Y de clic a la sección “Historial”</p><p>Y el usuario selecciona “Reservas antiguas”</p><p>Entonces la aplicación web visualiza las reservas antiguas del usuario</p>|EP03|
+|US16|Cancelar una reserva de un espacio de juego|Como usuario quiero cancelar una reserva para ya no tener que asistir|<p>***Escenario 1: Éxito al cancelar la reserva***</p><p></p><p>Dado que el usuario se encuentra en la página de historial, en la sección de reservas activas</p><p>Cuando el usuario da clic a una reserva activa</p><p>Y de clic a la sección “Cancelar”</p><p>Y el usuario paga la comisión por cancelar la reserva</p><p>Entonces la aplicación web cancela la reserva</p><p>Y se le retorna su dinero al usuario</p><p>Y habilita el horario para otros usuarios</p><p></p><p>***Escenario 2: Error al cancelar la reserva***</p><p></p><p>Dado que el usuario se encuentra en la página de historial, en la sección de reservas activas</p><p>Cuando el usuario da clic a una reserva activa</p><p>Y de clic a la sección “Cancelar”</p><p>Y el usuario no paga la comisión por cancelar la reserva</p><p>Entonces la aplicación web no cancela la reserva</p><p>Y le pide al usuario pagar la comisión</p>|EP03|
+|US17|Ver una suscripción|Como usuario quiero ver el estado de mi suscripción para gestionarla|<p>***Escenario 1: Visualizar suscripción***</p><p></p><p>Dado que el usuario se encuentra en la página principal</p><p>Cuando el usuario da clic a su ícono en la esquina superior de la aplicación web</p><p>Y de clic a la sección “Suscripción”</p><p>Entonces la aplicación web visualiza la suscripción del usuario</p>|EP04|
+|US18|Adquirir una subscripción|Como usuario quiero adquirir una subscripción para usar los beneficios|<p>***Escenario 1: Éxito al adquirir la subscripción***</p><p></p><p>Dado que el usuario se encuentra en la página de suscripción</p><p>Y tiene una suscripción gratuita</p><p>Cuando el usuario da clic a “Cambiar suscripción”</p><p>Y selecciona el plan premium</p><p>Y da clic en el botón “Confirmar”</p><p>Y el usuario realiza el pago correctamente</p><p>Entonces la aplicación web registra la suscripción del usuario</p><p>Y el usuario obtiene membresía premium</p><p></p><p>***Escenario 2: Error al adquirir la subscripción***</p><p></p><p>Dado que el usuario se encuentra en la página de suscripción</p><p>Y tiene una suscripción gratuita</p><p>Cuando el usuario da clic a “Adquirir suscripción”</p><p>Y selecciona el plan premium</p><p>Y da clic en “Confirmar”</p><p>Y el usuario no realiza el pago correctamente</p><p>Entonces la aplicación web no registra la suscripción del usuario</p><p>Y muestra un error en el pago</p>|EP04|
+|US19|Cancelar una subscripción|Como usuario quiero cancelar una subscripción para dejar de usar los beneficios|<p>***Escenario 1: Éxito al cancelar la subscripción***</p><p></p><p>Dado que el usuario se encuentra en la página de suscripción</p><p>Y tiene una suscripción premium</p><p>Cuando el usuario da clic a “Cambiar suscripción”</p><p>Y selecciona el plan gratuito</p><p>Y da clic en el botón “Confirmar”</p><p>Entonces la aplicación web registra la suscripción del usuario</p><p>Y el usuario pierde la membresía premium</p>|EP04|
+|US20|Ver salas comunitarias|Como usuario quiero ver las salas comunitarias para unirme a una de ellas|<p>***Escenario 1: Ver salas comunitarias***</p><p></p><p>Dado que el usuario se encuentra en la página de principal</p><p>Cuando el usuario da clic a “Salas comunitarias</p><p>Entonces la aplicación web visualiza todas las salas comunitarias</p>|EP05|
+|US21|Crear una sala comunitaria|Como usuario quiero crear una sala para que otros jugadores puedan unirse a nuestra reserva|<p>***Escenario 1: Crear sala comunitaria***</p><p></p><p>Dado que el usuario se encuentra en la página de salas comunitarias</p><p>Cuando el usuario da clic a “Crear sala comunitaria”</p><p>Y escribe los requisitos necesarios para unirse</p><p>Y da clic en el botón “Publicar”</p><p>Entonces la aplicación web registra la sala creada</p>|EP05|
+|US22|Unirse a una sala comunitaria|Como usuario quiero unirme a una sala comunitaria para jugar con otros jugadores|<p>***Escenario 1: Éxito al unirse a una sala comunitaria***</p><p></p><p>Dado que el usuario se encuentra en la página de salas comunitarias</p><p>Cuando el usuario da clic a una sala comunitaria creada por otro usuario</p><p>Y escribe sus motivos de querer ingresar</p><p>Y presiona “Unirse”</p><p>Y el creador de la sala lo acepta</p><p>Entonces la aplicación web lo une a la sala comunitaria</p><p>Y el jugador externo ya puede ir a encontrarse con los demás jugadores</p><p></p><p>***Escenario 1: Fallo al unirse a una sala comunitaria***</p><p></p><p>Dado que el usuario se encuentra en la página de salas comunitarias</p><p>Cuando el usuario da clic a una sala comunitaria creada por otro usuario</p><p>Y escribe sus motivos de querer ingresar</p><p>Y presiona “Unirse”</p><p>Y el creador de la sala lo deniega</p><p>Entonces la aplicación web le muestra al usuario un mensaje de denegación por parte del creador de la sala</p>|EP05|
+| US23          | Conocer acerca de la aplicación web      | Como visitante de la landing page quiero saber acerca de la aplicación web para conocer sus detalles                      | ***Escenario 1: Leer acerca de la aplicación web mediante hipervínculo***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante da clic a “Acerca de”<br/>  Entonces la landing page lo dirige a la sección de conocimiento<br/><br/> ***Escenario 2: Leer acerca de la aplicación web haciendo scroll***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante se moviliza hasta la sección “Acerca de”<br/>  Entonces el visitante podrá leer sobre el conocimiento de la aplicación web | EP06               |
+| US24          | Conocer los planes de la aplicación web  | Como visitante de la landing page quiero los planes que ofrecen para conocer sus detalles                                   | ***Escenario 1: Leer planes de la aplicación web mediante hipervínculo***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante da clic a “Planes”<br/>  Entonces la landing page lo dirige a la sección de planes<br/><br/> ***Escenario 2: Leer planes de la aplicación web haciendo scroll***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante se moviliza hasta la sección “Planes”<br/>  Entonces el visitante podrá leer sobre los planes de la aplicación web | EP06               |
+| US25          | Ver información de los desarrolladores        | Como visitante de la landing page quiero ver la información de los desarrolladores para conocer sus perfiles                |  ***Escenario 1: Leer sobre los desarrolladores de la aplicación web mediante hipervínculo***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante da clic a “Nosotros”<br/>  Entonces la landing page lo dirige a la sección de la información de los desarrolladores<br/><br/> ***Escenario 2: Leer sobre los desarrolladores de la aplicación web haciendo scroll***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante se moviliza hasta la sección “Nosotros”<br/>  Entonces el visitante podrá leer la información sobre los desarrolladores | EP06               |
+| US26          | Leer preguntas frecuentes             | Como visitante de la landing page quiero leer preguntas frecuentes para conocer dudas comunes de la aplicación web           | ***Escenario 1: Leer preguntas frecuentes de la aplicación web mediante hipervínculo***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante da clic a “Preguntas”<br/>  Entonces la landing page lo dirige a la sección de preguntas frecuentes<br/><br/> ***Escenario 2: Leer preguntas frecuentes de la aplicación web haciendo scroll***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante se moviliza hasta la sección “Preguntas frecuentes”<br/>  Entonces el visitante podrá leer sobre las preguntas frecuentes de la aplicación web | EP06               |
+| US27          | Contactarse con el soporte           | Como visitante de la landing page quiero contactarme con el soporte para resolver dudas                                     | ***Escenario 1: Contactarse con el soporte de la aplicación web mediante hipervínculo***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante da clic a “Contactanos”<br/>  Entonces la landing page lo dirige a la sección de contactarse<br/>  Y el visitante debe colocar su e-mail<br/><br/> ***Escenario 2: Contactarse con el soporte de la aplicación web haciendo scroll***<br/>  Dado que el visitante se encuentra en el landing page<br/>  Cuando el visitante se moviliza hasta la sección “Contactanos”<br/>  Entonces el visitante podrá contactarse con el soporte dejando su email | EP06               |
+| US28          | Añadir un espacio de juego           | Como propietario de un espacio de juego quiero añadir mi local a la aplicación web para que los rentores puedan reservar mi local | ***Escenario 1: Éxito al añadir un espacio de juego***<br/>  Dado que el propietario de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el propietario da clic a “Añadir espacio de juego”<br/>  Y registra correctamente todos los datos solicitados<br/>  Y da clic en “Confirmar”<br/>  Entonces la aplicación web añade el espacio de juego en la plataforma<br/><br/> ***Escenario 2: Error al añadir un espacio de juego***<br/>  Dado que el propietario de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el propietario da clic a “Añadir espacio de juego”<br/>  Y registra incorrectamente todos los datos solicitados<br/>  Y da clic en “Confirmar”<br/>  Entonces la aplicación web mostrará un error en los datos ingresados<br/>  Y le pide al propietario corregir los errores necesarios | EP07               |
+| US29          | Editar un espacio de juego           | Como dueño de un espacio de juego quiero editar mi local a la aplicación web para modificar información del espacio de juego |  ***Escenario 1: Éxito al editar un espacio de juego***<br/>  Dado que el dueño de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el dueño da clic a “Editar espacio de juego”<br/>  Y registra correctamente todos los datos solicitados<br/>  Y da clic en “Confirmar”<br/>  Entonces la aplicación web edita el espacio de juego en la plataforma<br/><br/> ***Escenario 2: Error al eliminar un espacio de juego***<br/>  Dado que el dueño de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el dueño da clic a “Editar espacio de juego”<br/>  Y registra incorrectamente todos los datos solicitados<br/>  Y da clic en “Confirmar”<br/>  Entonces la aplicación web mostrará un error en los datos ingresados<br/>  Y le pide al dueño corregir los errores necesarios | EP07               |
+| US30          | Eliminar un espacio de juego         | Como dueño de un espacio de juego quiero eliminar mi local a la aplicación web para que no se visualice más                 |  ***Escenario 1: Borrar un espacio de juego***<br/>  Dado que el dueño de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el dueño da clic a “Borrar espacio de juego”<br/>  Y da clic en “Confirmar”<br/>  Entonces la aplicación web borra el espacio de juego en la plataforma | EP07               |
+| US31          | Administrar horarios                | Como dueño de un espacio de juego quiero administrar los horarios de mis espacios de juego para conocer sus detalles     |  ***Escenario 1: Administrar horario de un espacio de juego***<br/>  Dado que el dueño de un espacio de juego se encuentra en la sección de locales<br/>  Cuando el dueño da clic a uno de sus espacios de juego<br/>  Entonces la aplicación web muestra su información<br/>  Y el cronograma de horarios registrados en el espacio de juego | EP07               |
+|TS01|Obtener información de espacios de juego disponibles|Como desarrollador, necesito implementar un endpoint en el API para obtener información sobre los espacios de juego disponibles en diferentes ubicaciones.|**Escenario 1:** Dado que tengo acceso al endpoint /api/espacios-de-juego, cuando solicito la información de espacios de juego disponibles en una ubicación específica, entonces recibo una lista de espacios de juego en esa ubicación en el formato esperado. <br> **Escenario 2:** Dado que realizo una solicitud GET a /api/espacios-de-juego con una ubicación no válida, entonces el sistema responde con un mensaje de error indicando que la ubicación es inválida.|        EP08      |
+|TS02|Gestionar reservas de espacios de juego|Como desarrollador, necesito implementar endpoints en el API para que los usuarios puedan realizar y gestionar reservas de espacios de juego de forma rápida y sencilla.|**Escenario 1:** Dado que tengo acceso al endpoint, cuando realizo una solicitud POST para reservar un espacio de juego, entonces el sistema crea una reserva con la información proporcionada. <br> **Escenario 2:** Dado que realizo una solicitud GET, entonces el sistema deberia devolverme la información de la reserva identificada.|   EP08           |
+|TS03|Gestionar calificaciones y comentarios de usuarios sobre espacios de juego|Como desarrollador, necesito implementar endpoints en el API para que los usuarios puedan calificar y dejar comentarios sobre los espacios de juego ocupados. |**Escenario 1:** Dado que realizo una solicitud GET, entonces el sistema devuelve la calificación promedio del espacio de juego identificado por el Id. <br> **Escenario 2:** Dado que tengo acceso al endpoint, cuando realizo una solicitud POST para dejar un comentario sobre un espacio de juego, entonces el sistema registra el comentario proporcionado.|         EP08     |
+|TS04|Implementar endpoints para la gestión de roles y permisos de usuario|Como desarrollador, necesito implementar endpoints en el API para administrar roles y permisos de usuario, permitiendo controlar de manera eficiente los accesos y acciones permitidas dentro de la plataforma.|**Escenario 1:** Dado que soy un administrador del sistema, cuando realizo una solicitud POST, entonces el sistema crea un nuevo rol con los permisos especificados. <br> **Escenario 2:** Dado que soy un administrador del sistema, cuando realizo una solicitud DELETE, entonces el sistema elimina el rol identificado por identificador y revoca los permisos asociados.|  EP08            |
+|TS05|Procesar pagos de forma segura y confiable|Como desarrollador, necesito implementar endpoints en el API para procesar pagos de forma segura y confiable dentro de la plataforma.|**Escenario 1:** Dado que tengo acceso al endpoint, cuando realizo una solicitud POST para procesar un pago, entonces el sistema procesa el pago de forma segura y confiable utilizando la pasarela de pago integrada. <br> **Escenario 2:** Dado que realizo una solicitud GET, entonces el sistema devuelve la información del pago identificado por el Id.|EP08 |
+|TS06|Validación de datos de entrada|Implementar validación de datos de entrada en los endpoints de la API para garantizar la integridad y consistencia de la información. |**Escenario 1:** Dado que se recibe una solicitud con datos de entrada, cuando se verifica el formato del correo electrónico, la contraseña y otros campos requeridos, entonces el sistema acepta la solicitud si los datos son válidos. <br> **Escenario 2:** Dado que se recibe una solicitud con datos de entrada no válidos, cuando se maneja adecuadamente el error y se proporciona una respuesta clara indicando el problema, entonces el usuario recibe retroalimentación sobre los errores en sus datos.|  EP08            |
+|TS07|Seguridad y protección de Datos|Como desarrollador, Quiero implementar medidas de seguridad y protección de datos Para garantizar la confidencialidad y la integridad de la información del usuario|**Escenario 1:** Dado que tengo acceso a la API de seguridad de datos Cuando un usuario proporciona información personal durante el proceso de registro o reserva Entonces la información se cifra de forma segura y se almacena en la base de datos de manera protegida contra accesos no autorizados. <br> **Escenario 2:** Dado que tengo acceso a la API de seguridad de datos Cuando un usuario realiza transacciones de pago en la aplicación Entonces se utilizan métodos de cifrado seguros para proteger la información financiera del usuario durante la transferencia de datos.|EP08  |
+|TS08|Sistema de alertas de disponibilidad|Como desarrollador, Quiero implementar un sistema de alertas de disponibilidad Para informar a los usuarios cuando se liberan nuevas instalaciones o cuando hay cambios en la disponibilidad de reservas existentes|**Escenario 1:** Dado que tengo acceso a la API de alertas de disponibilidad Cuando se libera una nueva cancha o mesa disponible en una ubicación preferida por el usuario Entonces se envía una notificación instantánea al usuario para informarle sobre la disponibilidad <br> **Escenario 2:** Dado que tengo acceso a la API de alertas de disponibilidad Cuando se realizan cambios en una reserva existente, como modificaciones de horario o cancelaciones Entonces se envía una notificación al usuario afectado para informarle sobre los cambios.| EP08 |
+|TS09|Implementar funcionalidad de inicio de sesión seguro|Como desarrollador, necesito implementar un endpoint en el API para permitir que los usuarios inicien sesión de forma segura en la plataforma.|**Escenario 1:** Dado que un usuario envía una solicitud POST al endpoint /api/login con credenciales válidas, entonces el sistema autentica al usuario y devuelve un token de acceso válido. <br> **Escenario 2:** Dado que un usuario intenta iniciar sesión con credenciales inválidas, entonces el sistema responde con un mensaje de error indicando que las credenciales son incorrectas. | EP08 |
+|TS10|Agregar funcionalidad de recuperación de contraseña|Como desarrollador, necesito implementar un endpoint en el API para permitir que los usuarios recuperen su contraseña en caso de olvido.|**Escenario 1:** Dado que un usuario solicita recuperar su contraseña mediante una solicitud POST al endpoint con el ingreso de sus datos brindados anteriormente, entonces el sistema muestra una ventana de recuperación válido. <br> **Escenario 2:** Dado que un usuario intenta recuperar su contraseña con datos incorrectos, entonces el sistema responde con un mensaje de error indicando que los datos no estan asociados a ninguna cuenta.|EP08  |
+|TS11|Gestiónar cuentas de usuario|Como desarrollador, necesito implementar endpoints en el API para permitir a los usuarios gestionar sus cuentas, incluyendo la actualización de información personal y la configuración de preferencias.|**Escenario 1:** Dado que un usuario envía una solicitud PUT al endpoint /api/user/account con datos actualizados, entonces el sistema actualiza la información de la cuenta del usuario según los datos proporcionados. <br> **Escenario 2:** Dado que un usuario realiza una solicitud DELETE al endpoint /api/user/account, entonces el sistema elimina la cuenta del usuario y todos los datos asociados.| EP08 |
+
+
+
+## 3.3. Impact Mapping
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//impactmaping1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//impactmaping2.png" alt="UPC">
+
+
+
+
+## 3.4. Product Backlog
+
+| #Orden | User Story ID | Título                                                 | Descripción                                                              | Story Points |
+|--------|---------------|--------------------------------------------------------|--------------------------------------------------------------------------|--------------|
+| 1      | TS02          | Gestionar reservas de espacios de juego               | Como desarrollador, necesito implementar endpoints en el API para que los usuarios puedan realizar y gestionar reservas de espacios de juego de forma rápida y sencilla.                                                                                    | 8            |
+| 2      | US13          | Reservar un espacio de juego                          | Como rentor quiero reservar un espacio de juego para divertirme jugando  | 8            |
+| 3      | US12          | Ver horarios de los espacios de juego                 | Como rentor quiero ver la disponibilidad de los espacios de juego para elegir | 5            |
+| 4      | TS01          | Obtener información de espacios de juego disponibles | Como desarrollador, necesito implementar un endpoint en el API para obtener información sobre los espacios de juego disponibles en diferentes ubicaciones.                                                                                                    | 5            |
+| 5      | TS05          | Procesar pagos de forma segura y confiable            | Como desarrollador, necesito implementar endpoints en el API para procesar pagos de forma segura y confiable dentro de la plataforma.                                                                                                                       | 5            |
+| 6      | TS08          | Sistema de alertas de disponibilidad                  | Como desarrollador, quiero implementar un sistema de alertas de disponibilidad para informar a los usuarios cuando se liberan nuevas instalaciones o cuando hay cambios en la disponibilidad de reservas existentes.                                      | 5            |
+| 7      | US16          | Cancelar una reserva de un espacio de juego           | Como rentor quiero cancelar una reserva para ya no tener que asistir    | 5            |
+| 8      | US20          | Ver salas comunitarias                                | Como rentor quiero ver las salas comunitarias para unirme a una de ellas| 5            |
+| 9      | US21          | Crear una sala comunitaria                            | Como rentor quiero crear una sala para que otros jugadores puedan unirse a nuestra reserva | 5            |
+| 10     | TS07          | Seguridad y protección de Datos                       | Como desarrollador, quiero implementar medidas de seguridad y protección de datos para garantizar la confidencialidad y la integridad de la información del usuario.                                                                                        | 3            |
+| 11     | US09          | Visualizar características de los espacios de juego   | Como rentor quiero ver la información de los espacios de juego para conocer sus características | 3            |
+| 12     | US10          | Comparar características de los espacios de juego      | Como rentor quiero comparar los espacios de juego para conocer cuál me conviene más | 3            |
+| 13     | US11          | Aplicar filtros de búsqueda                           | Como rentor quiero aplicar filtros para encontrar espacios de juego según mi preferencia | 3            |
+| 14     | US14          | Ver reservas activas de un espacio de juego           | Como rentor quiero ver mis reservas activas para gestionarlas           | 3            |
+| 15     | US15          | Ver historial de reservas de espacios de juego        | Como rentor quiero ver mis reservas antiguas para visualizar su información | 3            |
+| 16     | US17          | Ver una suscripción                                   | Como rentor quiero ver el estado de mi suscripción para gestionarla     | 3            |
+| 17     | US18          | Adquirir una subscripción                             | Como rentor quiero adquirir una subscripción para usar los beneficios    | 3            |
+| 18     | US19          | Cancelar una subscripción                             | Como rentor quiero cancelar una subscripción para dejar de usar los beneficios | 3            |
+| 19     | US28          | Añadir un espacio de juego                            | Como dueño de un espacio de juego quiero añadir mi local a la aplicación web para que los rentores puedan reservar mi local | 3            |
+| 20     | TS11          | Gestionar cuentas de usuario                          | Como desarrollador, necesito implementar endpoints en el API para permitir a los usuarios gestionar sus cuentas, incluyendo la actualización de información personal y la configuración de preferencias.                                                   | 3            |
+| 21     | US22          | Unirse a una sala comunitaria                   | Como rentor quiero unirme a una sala comunitaria para jugar con otros jugadores |3|
+| 22     | US01          | Registro de cuenta de rentor                   | Como rentor deseo registrarme para tener una cuenta | 3   |
+| 23     | US02          | Inicio de sesión de cuenta                   | Como rentor deseo poder ingresar a mi cuenta para usarla |3  |
+| 24| TS04| implementar endpoints para la gestión de roles y permisos de usuario | Como desarrollador, necesito implementar endpoints en el API para administrar roles y permisos de usuario, permitiendo controlar de manera eficiente los accesos y acciones permitidas dentro de la plataforma| 3 |
+| 25     | TS03          | Gestionar calificaciones y comentarios de usuarios    | Como desarrollador, necesito implementar endpoints en el API para que los usuarios puedan calificar y dejar comentarios sobre los espacios de juego ocupados | 2            |
+| 26     | US31          | Administrar horarios                                  | Como dueño de un espacio de juego quiero administrar los horarios de mis espacios de juego para conocer sus detalles | 2            |
+| 27     | US29          | Editar un espacio de juego                            | Como dueño de un espacio de juego quiero editar mi local a la aplicación web para modificar información del espacio de juego | 2            |
+| 28     | TS06          | Validación de datos de entrada                        | Como desarrollador, necesito implementar validación de datos de entrada en los endpoints de la API para garantizar la integridad y consistencia de la información.      | 2            |
+| 29     | TS09          | Implementar funcionalidad de inicio de sesión seguro  | Como desarrollador, necesito implementar un endpoint en el API para permitir que los usuarios inicien sesión de forma segura en la plataforma. | 2            |
+| 30     | TS10          | Agregar funcionalidad de recuperación de contraseña   | Como desarrollador, necesito implementar un endpoint en el API para permitir que los usuarios recuperen su contraseña en caso de olvido. | 2            |
+| 31     | US03          | Ver perfil de rentor  | Como rentor quiero acceder a mi perfil para ver mis datos personales | 2            |
+|32     | US04          | Editar perfil de rentor            |Como rentor deseo acceder a mi perfil para editar mis datos personales | 2            |
+| 33     | US06          | Visualizar tarjetas como método de pago                   | Como rentor quiero visualizar mis tarjetas registradas para gestionarlas| 2            |
+| 34     | US07          | Agregar una tarjeta como método de pago                  | Como rentor quiero agregar mi tarjeta para pagar mis reservas | 2            |
+| 35     | US30          | Eliminar un espacio de juego                          | Como dueño de un espacio de juego quiero eliminar mi local de la aplicación web para que no se visualice más | 1            |
+| 34     | US27          | Contactarse con el soporte                            | Como visitante de la landing page quiero contactarme con el soporte para resolver dudas | 1            |
+| 36     | US26          | Leer preguntas frecuentes                             | Como visitante de la landing page quiero leer preguntas frecuentes para conocer dudas comunes de la aplicación web | 1            |
+| 37     | US25          | Ver información de los desarrolladores                | Como visitante de la landing page quiero ver la información de los desarrolladores para conocer sus perfiles | 1            |
+| 38     | US24          | Conocer los planes de la aplicación web               | Como visitante de la landing page quiero conocer los planes que ofrecen para conocer sus detalles | 1            |
+| 39     | US23          | Conocer acerca de la aplicación web                   | Como visitante de la landing page quiero saber acerca de la aplicación web para conocer sus detalles | 1            |
+| 40     | US23          | Conocer acerca de la aplicación web                   | Como visitante de la landing page quiero saber acerca de la aplicación web para conocer sus detalles | 1            |
+| 41     | US05          | Editar tarjeta como método de pago                  | Como rentor quiero editar la información de mi tarjeta para gestionarla | 1            |
+| 42     | US08          | Borrar un método de pago                  | Como rentor quiero borrar una tarjeta para que ya no esté disponible | 1            |
+
+# IV. Product Design
+
+## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
+
+**D’Taquito:** Es una aplicación web que brinda apoyo en el proceso de reserva de canchas de fútbol y mesas de billar en Lima Metropolitana. Con ello, los amantes del fútbol y billar pueden encontrar y reservar canchas de forma conveniente y segura, todo desde la comodidad de su navegador web.
+
+- Nuestra audiencia abarca todo el público que desee conseguir un espacio deportivo, ya sea de futbol o billar, para recrearse. Además de otorgar a los dueños de estos espacios un entorno web para una mayor visibilidad de su negocio.
+
+**Mensaje:** Nuestro producto es seguro. A través de nuestra aplicación web podrás adquirir un servicio de alquiler de canchas de futbol y/o mesas de billar, como también un sistema automatizado de reservas para dueños de estos servicios.
+
+**Lenguaje:** Se usa una voz activa, sencilla y clara. 
+
+**Tono:** Informativo y atractivo. 
+
+**Contenido:** Imágenes y colores relacionados a nuestro producto.
+
+**Información:** Imágenes de las canchas y mesas, con su respectiva descripción. Además, tendrás la facilidad de ver los horarios disponibles para las reservas correspondientes. Y en caso de ser dueño, un resumen de reservas diarias como la información de las personas que solicitaron el servicio.
+
+**Tranquilidad:** Comodidad y seguridad que nuestros productos son para personas que deseen un espacio cercano para hacer deporte, como también para personas que deseen automatizar su sistema de reservas y ampliar su visibilidad.
+
+
+### 4.1.2. Web Style Guidelines
+
+1. Branding
+- **Logo:**
+El logo de D'taquito debe destacar en todas las páginas web  y se debe colocar en la esquina superior izquierda de la página.  
+- **Colores:**
+Los colores principales de la marca son el verde y el blanco. El verde debe utilizarse para resaltar elementos importantes y botones de llamada a la acción. Mientras que el blanco se utiliza para el fondo de la página y para el texto principal.
+- **Tipografía:**
+La tipografía principal es Roboto, con un peso de 400 para el texto principal y 700 para los encabezados. Se permite el uso de fuentes sans-serif alternativas para mejorar la legibilidad en diferentes dispositivos.
+2. Layout
+- **Responsive Design:**
+La página web debe ser completamente responsive, adaptándose a diferentes tamaños de pantalla, desde dispositivos móviles hasta escritorios.
+- **Navegación:**
+ La barra de navegación debe ser clara y fácil de usar, con opciones de menú desplegables para organizar el contenido. Debe incluir enlaces a las secciones principales de la aplicación, como búsqueda de canchas, reservas, perfil del usuario, etc.
+3. Interacción
+- **Botones:**
+Los botones deben tener un aspecto destacado y ser fácilmente distinguibles como elementos interactivos. Deben utilizar el color verde de la marca para resaltar su importancia.
+Se debe utilizar una animación de cambio de color al pasar el cursor sobre los botones para indicar interactividad.
+4. Iconografía
+- **Íconos:**
+Se debe utilizar una colección coherente de íconos en todo el sitio web para mejorar la usabilidad y la comprensión del contenido. Los íconos deben ser claros y reconocibles, utilizando el color verde de la marca cuando sea apropiado.
+5. Multimedia
+- **Imágenes:**
+Se deben utilizar imágenes de alta calidad que complementen el contenido y refuercen la identidad de la marca. Se debe prestar atención a la accesibilidad, asegurándose de que todas las imágenes tengan texto alternativo descriptivo.
+
+
+## 4.2. Information Architecture
+
+### 4.2.1. Organization Systems
+
+<div style="text-align: justify;">
+
+En D'taquito, aplicaremos diferentes sistemas de organización para gestionar la información de manera eficiente y proporcionar una experiencia de usuario intuitiva. A continuación, se detallan los sistemas de organización que utilizaremos y en qué casos se aplicarán:
+
+**Organización Visual del Contenido:**
+1. **Jerárquica:**
+   - Se aplicará la organización jerárquica en la página de inicio y en otras páginas principales para destacar la información más importante, como las características clave de la aplicación y los beneficios para los usuarios.
+   - Los encabezados, títulos y botones de llamada a la acción se diseñarán para ser más grandes y prominentes, atrayendo la atención del usuario de manera efectiva.
+2. **Secuencial:**
+   - Se utilizará la organización secuencial en el proceso de reserva de canchas o mesas de billar, guiando al usuario paso a paso a través del proceso para completar su reserva con éxito.
+   - Cada paso del proceso se presentará de forma clara y concisa, con indicaciones claras sobre qué información se requiere en cada etapa.
+3. **Matricial:**
+   - Se aplicará la organización matricial en la página de búsqueda de canchas o mesas de billar, permitiendo a los usuarios filtrar los resultados según diferentes criterios, como ubicación, disponibilidad y características específicas de las instalaciones.
+   - Los usuarios podrán seleccionar múltiples criterios de búsqueda para refinar sus resultados y encontrar fácilmente lo que están buscando.
+   
+**Esquemas de Categorización de Contenido:**
+1. **Alfabético:**
+   - Se utilizará la categorización alfabética para organizar la lista de canchas de fútbol o mesas de billar disponibles en función de su nombre o ubicación.
+   - Esto facilitará a los usuarios encontrar rápidamente la cancha o mesa que están buscando, especialmente si conocen el nombre exacto.
+
+
+</div>
+
+### 4.2.2. Labeling Systems
+
+<div style="text-align: justify;">
+
+En D'taquito, nos esforzamos por utilizar etiquetas claras y concisas para representar los conjuntos de información y las asociaciones entre ellas. Nuestro objetivo es garantizar la simplicidad y evitar la confusión para nuestros visitantes y usuarios. A continuación, se detallan las etiquetas que utilizaremos y cómo se asociarán entre sí:
+1. **Conjuntos de Información:**
+   - **Canchas de Fútbol / Mesas de Billar:**
+     - Utilizaremos la etiqueta "Canchas de Fútbol" o "Mesas de Billar" para representar los diferentes conjuntos de información relacionados con las instalaciones deportivas disponibles.
+   - **Reservas:**
+     - La etiqueta "Reservas" se utilizará para representar la información relacionada con las reservas de canchas de fútbol o mesas de billar realizadas por los usuarios.
+   - **Perfil de Usuario:**
+     - Utilizaremos la etiqueta "Perfil de Usuario" para representar la información asociada con los perfiles individuales de los usuarios, que incluyen detalles como nombre, foto de perfil, información de contacto, etc.
+2. **Asociaciones entre Etiquetas:**
+   - **Categorías y Subcategorías:**
+     - Las etiquetas de categoría se asociarán con las etiquetas de subcategoría para organizar la información de manera jerárquica. Por ejemplo, "Canchas de Fútbol" puede tener subcategorías como "Canchas al Aire Libre" y "Canchas Cubiertas".
+   - **Filtros y Opciones de Búsqueda:**
+     - Utilizaremos etiquetas descriptivas para representar las opciones de filtro y búsqueda disponibles para los usuarios. Por ejemplo, "Ubicación", "Disponibilidad", "Tipo de Instalación", etc.
+   - **Acciones y Funcionalidades:**
+     - Asociaremos etiquetas claras y concisas con las diferentes acciones y funcionalidades disponibles en la aplicación, como "Reservar", "Cancelar", "Editar Perfil", "Crear Evento", etc.
+   - **Feedback y Estado:**
+     - Utilizaremos etiquetas visuales para representar el estado de las reservas o acciones realizadas por los usuarios, como "Confirmado", "Pendiente", "Cancelado", etc.
+
+
+</div>
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Por supuesto, aquí tienes una propuesta para los SEO Tags y Meta Tags que se utilizarán en las principales páginas de la experiencia tanto a nivel del sitio web estático como en la aplicación web:
+
+**Landing Page:**
+- **Title:** 
+  - D'taquito: Reserva tu cancha o mesa de billar de manera rápida y segura 
+- **Meta Tags:**
+  - **Description:** 
+    - Canchas y mesas de billar cerca de ti a solo un clic de reserva
+  - **Keywords:** 
+    - Canchas de fútbol, Mesas de billar, Reservas deportivas, Organización de partidos, Deporte local, Juegos deportivos.
+  - **Author:** 
+    - D'taquito developers
+
+**Web Application:**
+- **Title:** 
+  - D'taquito: Reserva tu cancha o mesa de billar de manera rápida y segura
+- **Meta Tags:**
+  - **Description:** 
+    - Canchas y mesas de billar cerca de ti a solo un clic de reserva
+  - **Keywords:** 
+    - Reservas deportivas, Organización de partidos, Canchas de fútbol, Mesas de billar, Deporte local, Juegos deportivos.
+  - **Author:** 
+    - D'taquito developers
+
+
+### 4.2.4. Searching Systems
+
+<div style="text-align: justify;">
+
+- Los usuarios pueden buscar canchas de fútbol y mesas de billar disponibles en su ubicación actual o en una ubicación específica. Esto puede implementarse utilizando la geolocalización del dispositivo del usuario o permitiendo que ingresen manualmente una ubicación.
+
+- Los usuarios pueden refinar sus búsquedas utilizando filtros como la fecha y hora de reserva, el tipo de cancha (césped sintético, césped natural, sala de billar, etc.), la capacidad de la cancha o mesa (número de jugadores), la disponibilidad de servicios adicionales (vestuarios, duchas, estacionamiento, etc.).
+
+- Después de realizar una búsqueda, los resultados se presentan de manera ordenada y fácilmente comprensible para que los usuarios puedan encontrar rápidamente lo que están buscando. Pueden ordenarse por relevancia, distancia, precio, valoraciones, etc.
+
+- Los usuarios pueden ver una vista previa de los detalles de las canchas de fútbol o mesas de billar encontradas, incluyendo fotos, ubicación en el mapa, horarios disponibles, precios y reseñas de otros usuarios.
+
+</div>
+
+### 4.2.5. Navigation Systems
+
+Con esta estructura de navegación, los usuarios pueden moverse fácilmente entre las diferentes secciones de la aplicación y realizar acciones como buscar locales, unirse a reservas comunitarias, realizar sus propias reservas y gestionar su perfil y configuración.
+
+- **Locales:**
+Esta sección muestra una lista de todos los espacios de juego disponibles, incluyendo canchas de fútbol y mesas de billar. Los usuarios pueden explorar diferentes locales, ver detalles como ubicación, fotos, servicios ofrecidos y horarios de disponibilidad. También podrían haber opciones de filtrado y ordenamiento para que los usuarios puedan encontrar rápidamente los locales que se ajusten a sus preferencias.
+
+- **Sala Comunidad:**
+En esta sección, los usuarios pueden unirse a reservas de otras personas o crear reservas públicas a las que otros puedan unirse. Pueden explorar las reservas existentes, ver detalles como la fecha, hora, ubicación y número de participantes, y unirse a las que les interesen. Los usuarios también pueden crear sus propias reservas públicas, estableciendo detalles como la fecha, hora, local y número de participantes.
+
+- **Reserva:**
+Aquí es donde los usuarios realizan el proceso de reserva para asegurar su espacio de juego. Pueden seleccionar la fecha y hora deseadas, elegir el local disponible de su preferencia, especificar el número de jugadores y cualquier otro detalle relevante para la reserva. También pueden revisar y confirmar los detalles de la reserva antes de finalizarla.
+
+- **Configuración:**
+Esta sección alberga las opciones de configuración del perfil del usuario. Los usuarios pueden acceder a su perfil donde pueden ver y editar su información personal, como nombre, dirección, número de contacto, etc. También pueden acceder a su cartera virtual para ver su saldo, agregar fondos o realizar pagos.
+
+- **Suscripción:**
+Permite a los usuarios administrar su suscripción a servicios premium o viceversa.
+
+- **Historial:**
+Muestra un registro de las reservas anteriores del usuario, permitiéndoles revisar sus actividades pasadas.
+
+
+## 4.3. Landing Page UI Design
+
+### 4.3.1. Landing Page Wireframe
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//Landing Page Wireframe.jpg" alt="UPC">
+
+### 4.3.2. Landing Page Mock-up
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//Landing Page Mock-Up.jpg" alt="UPC">
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+
+<div style="text-align: justify;">
+
+Link del figma para ver todos los wireframes en el anexo <br>
+
+</div>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//wire1.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//wire2.png" alt="UPC">
+
+### 4.4.2. Web Applications Wireflow Diagrams
+
+User goal 1: Login a la aplicacion web <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal1.png" alt="UPC">
+
+User goal 2: Ver información de los espacios de juego <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal2.png" alt="UPC">
+
+User goal 3: Reservar un espacio de juego <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal3.png" alt="UPC">
+
+User goal 4: Crear o unirse a una sala comunidad <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal4.png" alt="UPC">
+
+User goal 5: Editar perfil <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal5.png" alt="UPC">
+
+User goal 6: Agregar tarjeta como metodo de pago <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal6.png" alt="UPC">
+
+User goal 7: Ver, editar o cancelar una reserva <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal7.png" alt="UPC">
+
+User goal 8: Cambiar de suscripcion <br>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal8.png" alt="UPC">
+
+### 4.4.3. Web Applications Mock-ups
+
+<div style="text-align: justify;">
+
+Link del figma para ver todos los mocks-up en el anexo <br>
+
+</div>
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//mock1.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//mock2.png" alt="UPC">
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+<div style="text-align: justify;">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw1.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw2.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw3.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw4.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw5.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw6.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw7.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw8.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw9.png" alt="UPC">
+
+</div>
+
+## 4.5. Web Applications Prototyping
+
+<div style="text-align: justify;">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//proto1.png" alt="UPC">
+
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//proto2.png" alt="UPC">
+
+
+## 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Software Architecture Context Diagram
+
+<div style="text-align: justify;">
+
+<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-Contexto.png" alt="UPC">
+
+</div>
+
+### 4.6.2. Software Architecture Container Diagrams
+
+<div style="text-align: justify;">
+
+<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-Contenedor%20(1).png" alt="UPC">
+
+</div>
+
+
+### 4.6.3. Software Architecture Components Diagrams
+
+<div style="text-align: justify;">
+
+<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-API%20Rest%20Component%20Diagram.png" alt="UPC">
+
+</div>
+
+## 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+<div style="text-align: justify;">
+
+<img src="https://github.com/HenryCenturion/open-source-final-project/blob/28df6078bec50dbc8c9144316016b58d3c7410f2/images/image.png" alt="UPC">
+
+</div>
+
+### 4.7.2. Class Dictionary
+
+<div style="text-align: justify;">
+
+</div>
+
+## 4.8. Database Design
+
+### 4.8.1. Database Diagram
+
+<div style="text-align: justify;">
+  
+<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//datos.jpg" alt="UPC">  
+</div>
