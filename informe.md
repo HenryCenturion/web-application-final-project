@@ -850,8 +850,8 @@ Las necesidades principales que hemos encontrado en nuestros segmentos objetivos
 
 ## 3.3. Impact Mapping
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//impactmaping1.png" alt="UPC">
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//impactmaping2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//impactmaping1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//impactmaping2.png" alt="UPC">
 
 
 
@@ -1073,11 +1073,11 @@ Muestra un registro de las reservas anteriores del usuario, permitiéndoles revi
 
 ### 4.3.1. Landing Page Wireframe
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//Landing Page Wireframe.jpg" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Landing Page Wireframe.jpg" alt="UPC">
 
 ### 4.3.2. Landing Page Mock-up
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//Landing Page Mock-Up.jpg" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//Landing Page Mock-Up.jpg" alt="UPC">
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1089,43 +1089,43 @@ Link del figma para ver todos los wireframes en el anexo <br>
 
 </div>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//wire1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//wire1.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//wire2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//wire2.png" alt="UPC">
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
 User goal 1: Login a la aplicacion web <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal1.png" alt="UPC">
 
 User goal 2: Ver información de los espacios de juego <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal2.png" alt="UPC">
 
 User goal 3: Reservar un espacio de juego <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal3.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal3.png" alt="UPC">
 
 User goal 4: Crear o unirse a una sala comunidad <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal4.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal4.png" alt="UPC">
 
 User goal 5: Editar perfil <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal5.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal5.png" alt="UPC">
 
 User goal 6: Agregar tarjeta como metodo de pago <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal6.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal6.png" alt="UPC">
 
 User goal 7: Ver, editar o cancelar una reserva <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal7.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal7.png" alt="UPC">
 
 User goal 8: Cambiar de suscripcion <br>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//usergoal8.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//usergoal8.png" alt="UPC">
 
 ### 4.4.3. Web Applications Mock-ups
 
@@ -1135,31 +1135,31 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 </div>
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//mock1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//mock1.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//mock2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//mock2.png" alt="UPC">
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
 <div style="text-align: justify;">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw1.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw2.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw3.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw3.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw4.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw4.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw5.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw5.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw6.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw6.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw7.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw7.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw8.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//uw8.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//uw9.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project/develop//capitulos//images//uw9.png" alt="UPC">
 
 </div>
 
@@ -1167,9 +1167,9 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//proto1.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//proto1.png" alt="UPC">
 
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project/develop//capitulos//images//proto2.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//proto2.png" alt="UPC">
 
 
 ## 4.6. Domain-Driven Software Architecture
@@ -1178,7 +1178,7 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-Contexto.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//context.png" alt="UPC">
 
 </div>
 
@@ -1186,7 +1186,7 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-Contenedor%20(1).png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//container.png" alt="UPC">
 
 </div>
 
@@ -1195,7 +1195,7 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://github.com/HenryCenturion/open-source-final-project/blob/13f33de46772af97f952ceb0a12e32f5903d019e/images/structurizr-86931-API%20Rest%20Component%20Diagram.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//component.png" alt="UPC">
 
 </div>
 
@@ -1205,7 +1205,7 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
 
-<img src="https://github.com/HenryCenturion/open-source-final-project/blob/28df6078bec50dbc8c9144316016b58d3c7410f2/images/image.png" alt="UPC">
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//diagram.png" alt="UPC">
 
 </div>
 
@@ -1221,5 +1221,5 @@ Link del figma para ver todos los mocks-up en el anexo <br>
 
 <div style="text-align: justify;">
   
-<img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//capitulos//images//datos.jpg" alt="UPC">  
+<img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//images//datos.jpg" alt="UPC">  
 </div>
