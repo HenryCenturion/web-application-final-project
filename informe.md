@@ -1335,11 +1335,11 @@ La implementación de un software abarca los pasos, procesos y actividades neces
   #### 5.2.1.3. Development Evidence for Sprint Review
   | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
   |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
-  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | ebdbd1e                                 | Initial commit       | Empty | 13/04/2024 |
-  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 326f262                                 | feat: Implement landing-page plan section       | Add plan section in landing-page for visitor visual | 13/04/2024 |
-  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 66e031b                                 | feat: Update index.html       | Implemented the members section | 13/04/2024 |
-  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | bced3d2                                 | feat: Update images folder       | Add arrow | 13/04/2024 |
-  | github.com/HenryCenturion/open-source-final-project                       | feature/landing-page    | 9c82028                                 | feat: Update image folder       | Add footer icons | 13/04/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/landing-page    | ebdbd1e                                 | Initial commit       | Empty | 16/04/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/landing-page    | 326f262                                 | feat: Implement landing-page plan section       | Add plan section in landing-page for visitor visual | 16/04/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/landing-page    | 66e031b                                 | feat: Update index.html       | Implemented the members section | 16/04/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/landing-page    | bced3d2                                 | feat: Update images folder       | Add arrow | 16/04/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/landing-page    | 9c82028                                 | feat: Update image folder       | Add footer icons | 16/04/2024 |
   
 
   #### 5.2.1.4. Testing Suite Evidence for Sprint Review
