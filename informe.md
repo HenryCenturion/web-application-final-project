@@ -1318,7 +1318,7 @@ La implementación de un software abarca los pasos, procesos y actividades neces
 | Attendees (to planning meeting) | Mendez Lopez, Sebastian Alonso / Atencio Castillo, John Alexis / Centurion Quintana, Henry Manuel / Frisancho Levano, Sebastian Mathias  |
 | **Sprint n - 1 Review Summary** | No hay resumen del sprint anterior, debido a que este es el primer sprint que se elabora. |
 | **Sprint n - 1 Retrospective Summary** | No hay retrospectiva del sprint anterior, debido a que este es el primer sprint que se elabora. |
-| **Sprint Goal & User Stories ** | |
+| **Sprint Goal & User Stories** | |
 | Sprint n Goal | La implementacion correcta de la primera version del landing page. Consideramos que, en una escala de medicion, hemos cumplido un 8. |
 | Sprint n Velocity | 5 |
 | Sum of Story Points | 5 |
@@ -1409,7 +1409,7 @@ Header:
 
 ## 5.3. Validation Interviews
 
-  ### 5.3.1. Diseño de Entrevistas
+### 5.3.1. Diseño de Entrevistas
 
 - ¿Cuál es tu nombre completo?
 - ¿Qué edad tienes?
@@ -1427,7 +1427,7 @@ Header:
 - ¿Crees que el diseño e interfaz del landing page es bastante llamativo para el público?
 - ¿Recomendarías a tus familiares, amigos y conocidos el sitio web? ¿Por qué? ¿Qué recomendaciones o sugerencias darías para mejorar el landing page?
 
-  ### 5.3.2. Registro de Entrevistas
+### 5.3.2. Registro de Entrevistas
 
 Entrevista N°1:
 
