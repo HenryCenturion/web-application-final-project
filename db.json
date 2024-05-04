@@ -1,0 +1,311 @@
+{
+  "fields": [
+    {
+      "id": "4",
+      "image": "https://clubdelaunion.com.pe/wp-content/uploads/2021/10/billar.jpg",
+      "name": "Salón de Billar La Esquina",
+      "price": "625",
+      "rating": 3,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Un salón de billar con un ambiente acogedor para disfrutar de una partida con amigos.",
+      "capacidad": "2 jugadores por mesa"
+    },
+    {
+      "id": "10",
+      "name": "Salón de Billar Elegante",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/5c/e1/98/parque-del-sol.jpg",
+      "price": "55.0",
+      "rating": 5,
+      "author": "3574",
+      "reserve": "9693",
+      "descripcion": "Un salón de billar de alta categoría con mesas profesionales y ambiente tranquilo.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "5",
+      "name": "Salón de Billar Los Amigos",
+      "image": "https://decofilia.com/wp-content/uploads/2015/07/sala-billar-en-casa-01.jpg",
+      "price": "55.0",
+      "rating": 5,
+      "author": "3574",
+      "reserve": "9693",
+      "descripcion": "Salón de billar perfecto para jugar con amigos y disfrutar de una experiencia única.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "15",
+      "name": "Salón de Billar VIP",
+      "image": "https://poolmania.es/recursos/gestor/blog/10%20salas.jpg",
+      "price": "15.5",
+      "rating": 5,
+      "author": "3574",
+      "reserve": "",
+      "descripcion": "Un exclusivo salón de billar con instalaciones modernas y ambiente sofisticado.",
+      "capacidad": "2 jugadores por mesa"
+    },
+    {
+      "id": "1",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/fa/e5/f3/subsuelo-salon-de-billar.jpg",
+      "name": "Salón de Billar Subsuelo",
+      "price": "24",
+      "rating": 5,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Salón de billar ubicado en el subsuelo, ideal para los amantes de la tranquilidad.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "13",
+      "name": "Cancha Deportiva Brillante",
+      "image": "https://sportfield.com.mx/wp-content/uploads/2019/08/Brio-885x500.jpg",
+      "price": "14.5",
+      "rating": 4,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol con césped sintético de alta calidad y buena iluminación nocturna.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "2",
+      "name": "Cancha Deportiva Verde",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruSh-Ix2Lv4lNxvwRZZ2U8UKjmOiuew_gF-UHNAIwsw&s",
+      "price": "13.5",
+      "rating": 4,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol con césped natural, perfecta para partidos con amigos.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "6",
+      "name": "Cancha de Fútbol Dorada",
+      "image": "https://www.circulomilitardelperu.com/img/Sedess/Chorrillos/Areas%20Deportivas/Futbol/2.jpg",
+      "price": "115.0",
+      "rating": 4,
+      "author": "3574",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol bien cuidada con servicios de vestuario y estacionamiento cercanos.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "16",
+      "name": "Cancha Deportiva Los Pioneros",
+      "image": "https://elcomercio.pe/resizer/keZ1vAQDJ5H7lXBaw0A66AsG5z0=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YLGMR2KY7JH3BNR6Y5QVTVGZEE.jpg",
+      "price": "12.5",
+      "rating": 3,
+      "author": "3574",
+      "reserve": "9693",
+      "descripcion": "Una cancha de fútbol ideal para partidos amistosos, con un ambiente relajado y familiar.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "3",
+      "image": "https://sport-12.com/wp-content/uploads/2022/02/Cancha-Chapultepec_cuadrado.jpg",
+      "name": "Cancha Deportiva Chapultepec",
+      "price": "85.0",
+      "rating": 3,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Cancha con césped de calidad y servicios completos para los jugadores.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "7",
+      "name": "Cancha Deportiva Estrella",
+      "image": "https://www.musco.com/wp-content/uploads/2019/03/f7_1200x600-1024x512.jpg",
+      "price": "25.0",
+      "rating": 3,
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Cancha de fútbol con iluminación nocturna y vestuarios equipados.",
+      "capacidad": "fútbol 9"
+    },
+    {
+      "id": "9",
+      "name": "Cancha Deportiva La Unión",
+      "image": "https://r.btcdn.co/22988/medium/766569-IMG_5805.JPG?1658008884",
+      "price": "32.0",
+      "rating": 2,
+      "author": "3574",
+      "reserve": "",
+      "descripcion": "Una cancha con espacio para jugadores de todos los niveles y con servicios básicos.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "12",
+      "name": "Salón de Billar Elite",
+      "image": "https://i.pinimg.com/564x/de/40/6b/de406bf47d824cc865dce19069bcc8b5.jpg",
+      "price": "12.5",
+      "rating": 2,
+      "author": "3574",
+      "reserve": "",
+      "descripcion": "Un salón de billar de alta categoría con mesas profesionales y ambiente tranquilo.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "8",
+      "name": "Cancha Deportiva Aventura",
+      "image": "https://i.pinimg.com/564x/cc/bd/29/ccbd295853a5a99fa0bd9ea3ed55467a.jpg",
+      "price": "52.0",
+      "rating": 1,
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol ideal para aventuras con amigos, con espacio para varios jugadores.",
+      "capacidad": "fútbol 9"
+    },
+    {
+      "id": "11",
+      "name": "Cancha Deportiva Los Amigos",
+      "image": "https://i.pinimg.com/564x/97/65/ca/9765ca932641b02242b78a55f8eeb515.jpg",
+      "price": "15.0",
+      "rating": 1,
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Una cancha para disfrutar de partidos con amigos, con todos los servicios básicos.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "36d4",
+      "name": "Salón de Billar Paraíso",
+      "price": 13,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/bd/e8/6c/bde86c2a355f511669fa5e9a645be475.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Salón de billar con un ambiente relajado y acogedor para disfrutar de juegos con amigos.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "7f5e",
+      "name": "Cancha Deportiva Fútbol Club",
+      "price": 1000000,
+      "rating": 5,
+      "image": "https://i.pinimg.com/564x/71/0f/a5/710fa5db63f5bde45801c06ab58e7fda.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol profesional con todas las comodidades para los jugadores más exigentes.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "8b25",
+      "name": "Salón de Billar La Fortuna",
+      "price": 9999,
+      "rating": 5,
+      "image": "https://i.pinimg.com/564x/ed/38/e8/ed38e89352a019f79c74736bca180613.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Salón de billar con mesas de alta calidad y un ambiente lujoso para los amantes del billar.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "dee2",
+      "name": "Salón de Billar Clásico",
+      "price": 12,
+      "rating": 3,
+      "image": "https://i.pinimg.com/564x/ee/4b/75/ee4b753b5fc87037a87bb464f56bcb82.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Un salón de billar con un toque clásico, ideal para los aficionados al billar tradicional.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "be00",
+      "name": "Cancha Deportiva Los Guerreros",
+      "price": 23,
+      "rating": 3,
+      "image": "https://i.pinimg.com/564x/42/bb/20/42bb20d515641702abdbc88af9432dce.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Una cancha para los guerreros del fútbol, con espacio para disfrutar de un partido emocionante.",
+      "capacidad": "fútbol 9"
+    },
+    {
+      "id": "cb89",
+      "name": "Cancha Deportiva La Victoria",
+      "price": 8,
+      "rating": 5,
+      "image": "https://i.pinimg.com/564x/71/49/ec/7149ec29b5a2324ad1e7ae08a6869e87.jpg",
+      "author": "7de1",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol con espíritu de victoria, perfecta para grandes partidos.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "59b0",
+      "name": "Cancha Deportiva Las Estrellas",
+      "price": 23,
+      "rating": 3,
+      "image": "https://i.pinimg.com/564x/80/4e/ae/804eae4302e858e2b6225eb9f1b3e409.jpg",
+      "author": "1a53",
+      "reserve": "",
+      "descripcion": "Una cancha de fútbol con espíritu estelar, lista para grandes juegos y emociones.",
+      "capacidad": "fútbol 7"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Juan",
+      "lastname": "Pérez",
+      "age": 30,
+      "role": "rentor",
+      "email": "juan@example.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "María",
+      "lastname": "Gómez",
+      "age": 25,
+      "role": "propietario",
+      "email": "mari@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3",
+      "name": "Henry",
+      "lastname": "González",
+      "age": 35,
+      "role": "rentor",
+      "email": "henry@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9693",
+      "name": "john",
+      "lastname": "at",
+      "age": 21,
+      "role": "rentor",
+      "email": "john@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "7de1",
+      "name": "sebastian",
+      "lastname": "mendez",
+      "age": 19,
+      "role": "propietario",
+      "email": "sebaditas@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1a53",
+      "name": "free",
+      "lastname": "free",
+      "age": 22,
+      "role": "propietario",
+      "email": "free@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3574",
+      "name": "ali",
+      "lastname": "ra",
+      "age": 23,
+      "role": "propietario",
+      "email": "ali@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
