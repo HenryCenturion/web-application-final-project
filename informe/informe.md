@@ -1813,7 +1813,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   
   #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace:
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-back.onrender.com/api/v1/{llamado_de_apis} (Ver anexos)
   
   #### 5.2.3.8. Team Collaboration Insights during Sprint
 
