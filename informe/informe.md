@@ -1987,7 +1987,7 @@ Enlace al deploy del landing page:
 https://dtaquito-landing-page.netlify.app/
 
 Enlace al deploy del front web:
-https://dtaquito-front-web.netlify.app/ 
+https://dtaquito-new-front-web.netlify.app/home
 
 Enlace al repositorio en Github:
 https://github.com/HenryCenturion/web-application-final-project
