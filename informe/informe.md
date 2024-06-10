@@ -1986,6 +1986,12 @@ https://www.figma.com/file/9b5VMPb1CCHGYuWQkP2554/UX-Design?type=design&node-id=
 Enlace al deploy del landing page:
 https://dtaquito-landing-page.netlify.app/
 
+Enlace al deploy del backend:
+
+https://dtaquito-back.onrender.com/api/v1/
+
+Ahi van las api rest que desea solicitar (users, suscriptions, payments, reservations, sport-spaces)
+
 Enlace al deploy del front web:
 https://dtaquito-new-front-web.netlify.app/home
 
