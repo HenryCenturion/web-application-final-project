@@ -1724,22 +1724,15 @@ Header:
   #### 5.2.2.4. Testing Suite Evidence for Sprint Review
   Para el caso, emos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
 
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing1.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing2.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing3.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing4.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing5.png" alt="UPC">
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion web, de tal manera que se evidencia algunas de las funcionalidades de esta misma.
 
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute6.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute7.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute1.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute2.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute3.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute4.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execute5.png" alt="UPC">
-
-
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee3.png" alt="UPC">
 
  #### 5.2.2.6. Services Documentation Evidence for Sprint Review
  Para el caso de servicios estamos simulando una api con json-server por lo que usaremos como base de datos momentanea. 
@@ -1758,6 +1751,79 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
 - **Ordenamiento de directorios y estructuración según Domain-Driven Design (DDD):** Se reestructuraron los directorios del proyecto de acuerdo con los principios de Domain-Driven Design (DDD), lo que facilitó la organización y el acceso a los recursos. (Henry Centurion)
 - **Desarrollo de diversos componentes, encabezado y pie de página:** Se trabajó en el desarrollo de múltiples componentes, incluyendo mejoras en el encabezado y el pie de página, para proporcionar una interfaz más atractiva y coherente. (John Atencio)
 - **Implementación del sistema de inicio de sesión y validaciones:** Se implementó el sistema de inicio de sesión con validaciones robustas, garantizando la seguridad y la integridad de los datos de los usuarios. (Sebastián Frisancho)
+
+### 5.2.3. Sprint 3
+  #### 5.2.3.1. Sprint Planning 3
+
+  |Sprint 3|Sprint 3|
+| :-: | :-: |
+|Sprint Planning Background||
+|Date|2024-06-1|
+|Time|2:23 PM|
+|Location|Reunion virtual mediante videoconferencia.|
+|Prepared by|Mendez Lopez, Sebastian Alonso|
+|Attendees (to planning meeting)|Mendez Lopez, Sebastian Alonso / Atencio Castillo, John Alexis / Centurion Quintana, Henry Manuel / Frisancho Levano, Sebastian Mathias|
+|**Sprint 2 Review Summary**|Se realizo y actualizo cambios al frontend, completando así por completo el proyecto y sobre todo implementando los demás user stories.|
+|**Sprint 2 Retrospective Summary**|Debemos invertir un poco más de tiempo en realizar funcionalidades para seguir teniendo tiempo al momento de cumplir con la fecha programa del sprint|
+|**Sprint Goal & User Stories**||
+|Sprint 3 Goal|La implementación de la primera versión del backend|
+|Sprint 3 Velocity|26|
+|Sum of Story Points|35|
+
+  #### 5.2.3.2. Sprint Backlog 3
+
+| **ID** | **Title**                                        | **ID of Assignment** | **Title of Assignment**                              | **Description**                                             | **Estimation (Hours)** | **Assigned by** | **Status**    |
+| ---   | ----------------------------------------------- | ------------------- | ---------------------------------------------- | ---------------------------------------------------- | --------------------- | --------------- | ------------ |
+|TS02|Gestionar reservas de espacios de juego|T01|Implementar endpoints para gestionar reservas de espacios de juego|Implementar endpoints en el API para que los usuarios gestionen reservas de espacios de juego.|10|S. Mendez|Done|
+|TS01|Gestionar información de los espacios de juego|T01|Implementar endpoint para obtener información de espacios de juego disponibles|Implementar un endpoint en el API para obtener información sobre los espacios de juego disponibles.|5|H. Centurion|Done|
+|TS11|Gestionar cuentas de usuario|T01|Implementar endpoints para gestionar cuentas de usuario|Implementar endpoints en el API para que los usuarios gestionen sus cuentas y preferencias.|3|S. Frisancho|Done|
+|TS04|Implementar endpoints para la gestión de roles y permisos de usuario|T01|Implementar endpoints para gestionar roles y permisos de usuario|Implementar endpoints en el API para administrar roles y permisos de usuario.|3|J. Atencio|To-Do|
+|TS06|Validación de datos de entrada|T01|Implementar validación de datos de entrada en los endpoints|Implementar validación de datos de entrada en los endpoints de la API.|2|S. Mendez|To-Do|
+|TS09|Implementar funcionalidad de inicio de sesión seguro|T01|Implementar endpoint para inicio de sesión seguro|Implementar un endpoint en el API para que los usuarios inicien sesión de forma segura.|2|S. Mendez|To-Do|
+|TS05|Gestión de método de pago|T01|Implementar endpoints para procesar pagos de forma segura|Implementar endpoints en el API para procesar pagos de forma segura.|5|H. Centurion|Done|
+|TS08|Gestión de suscripciones|T01|Implementar sistema de subscripciones|Implementar endpoints en el API para gestionar las subscripciones dentro de la app.|5|S. Frisancho|Done|
+|TS07|Seguridad y protección de datos|T01|Implementar medidas de seguridad y protección de datos|Implementar medidas de seguridad para proteger la información del usuario.|3|J. Atencio|To-Do|
+|TS10|Agregar funcionalidad de recuperación de contraseña|T01|Implementar endpoint para recuperación de contraseña|Implementar un endpoint en el API para la recuperación de contraseña.|2|J. Atencio|To-Do|
+|TS03|Gestionar calificaciones y comentarios de usuarios|T01|Implementar endpoints para gestionar calificaciones y comentarios de usuarios|Implementar endpoints en el API para que los usuarios califiquen y dejen comentarios sobre los espacios de juego.|2|S. Mendez|Doing|
+  
+  #### 5.2.3.3. Development Evidence for Sprint Review
+
+  | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
+  |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
+  | github.com/HenryCenturion/web-application-final-project                       | feature/web-service    |                                  | feat: Upload services-web folder       | Folder for the files of the web services first version | 09/06/2024 |
+  
+  #### 5.2.3.4. Testing Suite Evidence for Sprint Review
+  Para el caso, hemos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
+
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//test1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//test2.png" alt="UPC">
+
+  #### 5.2.3.5. Execution Evidence for Sprint Review
+  Para el caso, estamos evidenciando la ejecucion correcta de nuestro backend, de tal manera que se evidencia algunas de las funcionalidades de esta misma, al igual que la realizacion de algunos querys.
+
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execution1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//execution2.png" alt="UPC">
+  
+  #### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+  Para el caso, ya hemos implementado los datos de nuestra aplicacion en la base de datos, usando una base de datos relacional con la herramienta mySQL, para poder ver nuestros campos, ademas desarrollamos nuestro backend con el lenguaje c#.
+
+  <img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//informe//images//mysql1.PNG" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//open-source-final-project//develop//informe//images//mysql2.PNG" alt="UPC">
+  
+  #### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace:
+  
+  #### 5.2.3.8. Team Collaboration Insights during Sprint
+
+  - **Pruebas de integración y optimización del rendimiento:** Se realizaron pruebas de integración y rendimiento en el backend para evaluar y optimizar su funcionamiento, garantizando una experiencia de usuario fluida y eficiente. (Sebastián Frisancho)
+
+  - **Revisión de código y aseguramiento de calidad:** Se coordinó la revisión de código entre pares, enfocándose en asegurar la calidad y consistencia del código backend del proyecto, y facilitando sesiones de retroalimentación técnica. (Henry Centurion)
+
+  - **Implementación de servicios y APIs, y presentación del progreso:** Se implementaron servicios y APIs críticos, presentando el progreso del proyecto en reuniones de sprint y recibiendo retroalimentación de los interesados para mejorar la funcionalidad y eficiencia del backend. (John Atencio)
+
+  - **Mejoramiento de lógica y desarrollo de componentes en la API:** Se optimizaron los métodos de la API, mejorando la lógica interna para aumentar la eficiencia. Además, se desarrollaron varios componentes nuevos para enriquecer las funcionalidades existentes del backend. (Sebastián Méndez)
 
 ## 5.3. Validation Interviews
 
@@ -1920,8 +1986,10 @@ https://www.figma.com/file/9b5VMPb1CCHGYuWQkP2554/UX-Design?type=design&node-id=
 Enlace al deploy del landing page:
 https://dtaquito-landing-page.netlify.app/
 
+Enlace al deploy del front web:
+https://dtaquito-front-web.netlify.app/ 
+
 Enlace al repositorio en Github:
 https://github.com/HenryCenturion/web-application-final-project
 
-Enlace al deploy del web aplication:
 
