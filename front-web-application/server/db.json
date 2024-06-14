@@ -1,0 +1,601 @@
+{
+  "fields": [
+    {
+      "id": "4",
+      "image": "https://clubdelaunion.com.pe/wp-content/uploads/2021/10/billar.jpg",
+      "name": "Salón de Billar La Esquina",
+      "price": "625",
+      "rating": 3,
+      "author": "1a53",
+      "descripcion": "Un salón de billar con un ambiente acogedor para disfrutar de una partida con amigos.",
+      "capacidad": "2 jugadores por mesa"
+    },
+    {
+      "id": "10",
+      "name": "Salón de Billar Elegante",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/04/5c/e1/98/parque-del-sol.jpg",
+      "price": "55.0",
+      "rating": 5,
+      "author": "3574",
+      "descripcion": "Un salón de billar de alta categoría con mesas profesionales y ambiente tranquilo.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "5",
+      "name": "Salón de Billar Los Amigos",
+      "image": "https://decofilia.com/wp-content/uploads/2015/07/sala-billar-en-casa-01.jpg",
+      "price": "55.0",
+      "rating": 5,
+      "author": "3574",
+      "descripcion": "Salón de billar perfecto para jugar con amigos y disfrutar de una experiencia única.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "15",
+      "name": "Salón de Billar VIP",
+      "image": "https://poolmania.es/recursos/gestor/blog/10%20salas.jpg",
+      "price": "15.5",
+      "rating": 5,
+      "author": "3574",
+      "descripcion": "Un exclusivo salón de billar con instalaciones modernas y ambiente sofisticado.",
+      "capacidad": "2 jugadores por mesa"
+    },
+    {
+      "id": "1",
+      "image": "https://media-cdn.tripadvisor.com/media/photo-s/06/fa/e5/f3/subsuelo-salon-de-billar.jpg",
+      "name": "Salón de Billar Subsuelo",
+      "price": "24",
+      "rating": 5,
+      "author": "1a53",
+      "descripcion": "Salón de billar ubicado en el subsuelo, ideal para los amantes de la tranquilidad.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "13",
+      "name": "Cancha Deportiva Brillante",
+      "image": "https://sportfield.com.mx/wp-content/uploads/2019/08/Brio-885x500.jpg",
+      "price": "14.5",
+      "rating": 4,
+      "author": "1a53",
+      "descripcion": "Una cancha de fútbol con césped sintético de alta calidad y buena iluminación nocturna.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "2",
+      "name": "Cancha Deportiva Verde",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRruSh-Ix2Lv4lNxvwRZZ2U8UKjmOiuew_gF-UHNAIwsw&s",
+      "price": "13.5",
+      "rating": 4,
+      "author": "1a53",
+      "descripcion": "Una cancha de fútbol con césped natural, perfecta para partidos con amigos.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "6",
+      "name": "Cancha de Fútbol Dorada",
+      "image": "https://www.circulomilitardelperu.com/img/Sedess/Chorrillos/Areas%20Deportivas/Futbol/2.jpg",
+      "price": "115.0",
+      "rating": 4,
+      "author": "3574",
+      "descripcion": "Una cancha de fútbol bien cuidada con servicios de vestuario y estacionamiento cercanos.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "16",
+      "name": "Cancha Deportiva Los Pioneros",
+      "image": "https://elcomercio.pe/resizer/keZ1vAQDJ5H7lXBaw0A66AsG5z0=/1200x900/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/YLGMR2KY7JH3BNR6Y5QVTVGZEE.jpg",
+      "price": "12.5",
+      "rating": 3,
+      "author": "3574",
+      "descripcion": "Una cancha de fútbol ideal para partidos amistosos, con un ambiente relajado y familiar.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "3",
+      "image": "https://sport-12.com/wp-content/uploads/2022/02/Cancha-Chapultepec_cuadrado.jpg",
+      "name": "Cancha Deportiva Chapultepec",
+      "price": "85.0",
+      "rating": 3,
+      "author": "1a53",
+      "descripcion": "Cancha con césped de calidad y servicios completos para los jugadores.",
+      "capacidad": "fútbol 7"
+    },
+    {
+      "id": "7",
+      "name": "Cancha Deportiva Estrella",
+      "image": "https://www.musco.com/wp-content/uploads/2019/03/f7_1200x600-1024x512.jpg",
+      "price": "25.0",
+      "rating": 3,
+      "author": "1a53",
+      "descripcion": "Cancha de fútbol con iluminación nocturna y vestuarios equipados.",
+      "capacidad": "fútbol 9"
+    },
+    {
+      "id": "9",
+      "name": "Cancha Deportiva La Unión",
+      "image": "https://r.btcdn.co/22988/medium/766569-IMG_5805.JPG?1658008884",
+      "price": "32.0",
+      "rating": 2,
+      "author": "3574",
+      "descripcion": "Una cancha con espacio para jugadores de todos los niveles y con servicios básicos.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "12",
+      "name": "Salón de Billar Elite",
+      "image": "https://i.pinimg.com/564x/de/40/6b/de406bf47d824cc865dce19069bcc8b5.jpg",
+      "price": "12.5",
+      "rating": 2,
+      "author": "3574",
+      "descripcion": "Un salón de billar de alta categoría con mesas profesionales y ambiente tranquilo.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "8",
+      "name": "Cancha Deportiva Aventura",
+      "image": "https://i.pinimg.com/564x/cc/bd/29/ccbd295853a5a99fa0bd9ea3ed55467a.jpg",
+      "price": "52.0",
+      "rating": 1,
+      "author": "7de1",
+      "descripcion": "Una cancha de fútbol ideal para aventuras con amigos, con espacio para varios jugadores.",
+      "capacidad": "fútbol 9"
+    },
+    {
+      "id": "11",
+      "name": "Cancha Deportiva Los Amigos",
+      "image": "https://i.pinimg.com/564x/97/65/ca/9765ca932641b02242b78a55f8eeb515.jpg",
+      "price": "15.0",
+      "rating": 1,
+      "author": "7de1",
+      "descripcion": "Una cancha para disfrutar de partidos con amigos, con todos los servicios básicos.",
+      "capacidad": "fútbol 5"
+    },
+    {
+      "id": "36d4",
+      "name": "Salón de Billar Paraíso",
+      "price": 13,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/bd/e8/6c/bde86c2a355f511669fa5e9a645be475.jpg",
+      "author": "7de1",
+      "descripcion": "Salón de billar con un ambiente relajado y acogedor para disfrutar de juegos con amigos.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "7f5e",
+      "name": "Salón de Billar Eclipse",
+      "price": 17,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/84/1e/38/841e38664b8f1f3664a2eb869bda41ff.jpg",
+      "author": "7de1",
+      "descripcion": "Un salón de billar moderno con mesas profesionales y un ambiente elegante.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "8b25",
+      "name": "Salón de Billar Aurora",
+      "price": 19,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/58/1d/2a/581d2a5f6b0b4ef668a3660153de55b3.jpg",
+      "author": "7de1",
+      "descripcion": "Salón de billar con decoración de lujo y mesas de alta calidad.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "dee2",
+      "name": "Salón de Billar Nova",
+      "price": 21,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/64/72/6d/64726d4d1ae4512d61cc32fcfd123171.jpg",
+      "author": "7de1",
+      "descripcion": "Un salón de billar con ambiente moderno y mesas profesionales.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "be00",
+      "name": "Salón de Billar Lux",
+      "price": 16,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/b2/3f/94/b23f94539fe37e3155a5a20ad5147d4b.jpg",
+      "author": "7de1",
+      "descripcion": "Un salón de billar elegante con decoración de lujo y mesas profesionales.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "cb89",
+      "name": "Salón de Billar Estrella",
+      "price": 18,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/eb/90/a4/eb90a401ddcb9a83a1ba175d74aa8af8.jpg",
+      "author": "7de1",
+      "descripcion": "Un salón de billar moderno con mesas de alta calidad y ambiente acogedor.",
+      "capacidad": "4 jugadores por mesa"
+    },
+    {
+      "id": "59b0",
+      "name": "Salón de Billar Prisma",
+      "price": 14,
+      "rating": 2,
+      "image": "https://i.pinimg.com/564x/84/1e/38/841e38664b8f1f3664a2eb869bda41ff.jpg",
+      "author": "7de1",
+      "descripcion": "Un salón de billar con decoración moderna y mesas profesionales.",
+      "capacidad": "3 jugadores por mesa"
+    },
+    {
+      "id": "dyxcAQs",
+      "image": "https://m.media-amazon.com/images/I/81v0b6wD1hL._AC_UF1000,1000_QL80_.jpg",
+      "name": "sad",
+      "price": 32,
+      "rating": 3,
+      "author": "7de1",
+      "descripcion": "dsftsdr",
+      "capacidad": "sdfdsgdsgf"
+    },
+    {
+      "id": "rdsFn9p",
+      "image": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=60,format=auto/https://editors.dexerto.com/wp-content/uploads/2023/08/25/blue-lock-chapter-230-spoilers.jpg",
+      "name": "weq",
+      "price": 323,
+      "rating": 5,
+      "author": "7de1",
+      "descripcion": "dsftsdr",
+      "capacidad": "sdfdsgdsgf"
+    },
+    {
+      "id": "g6Inzrx",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDaKRMQlNycBM-tpZOzcmSauIK6s4APM7Sug&s",
+      "name": "sdf",
+      "price": 324,
+      "rating": 4,
+      "author": "7de1",
+      "descripcion": "asfds",
+      "capacidad": "5 j"
+    }
+  ],
+  "reservation": [
+    {
+      "id": "1",
+      "idField": "10",
+      "idUser": "9693",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "date": "2023-04-29",
+      "total": 72
+    },
+    {
+      "id": "2",
+      "idField": "5",
+      "idUser": "9693",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "date": "2023-04-29",
+      "total": 72
+    },
+    {
+      "id": "3",
+      "idField": "1",
+      "idUser": "3",
+      "startTime": "13:00",
+      "endTime": "16:00",
+      "date": "2023-04-29",
+      "total": 72
+    },
+    {
+      "id": "pe1iV2y",
+      "idField": "g6Inzrx",
+      "idUser": "9693",
+      "startTime": "05:39",
+      "endTime": "21:41",
+      "date": "2024-06-19",
+      "total": 25
+    },
+    {
+      "id": "5257968700103164",
+      "idField": "1",
+      "idUser": "9693",
+      "startTime": "1970-01-01T14:52:00.000Z",
+      "endTime": "1970-01-01T16:56:00.000Z",
+      "date": "2024-06-22",
+      "total": "49.60"
+    },
+    {
+      "id": "8816485264367024",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "7392667896271838",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "08241072759086587",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "007511337150158948",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "8546485669187982",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "4217183221256422",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T12:56:00.000Z",
+      "endTime": "1970-01-01T14:58:00.000Z",
+      "date": "2024-06-21",
+      "total": "31.52"
+    },
+    {
+      "id": "5114965865597354",
+      "idField": "15",
+      "idUser": "9693",
+      "startTime": "1970-01-01T17:26:00.000Z",
+      "endTime": "1970-01-01T18:27:00.000Z",
+      "date": "2024-06-28",
+      "total": "15.76"
+    },
+    {
+      "id": "46276507895918484",
+      "idField": "rdsFn9p",
+      "idUser": "9693",
+      "startTime": "1970-01-01T02:06:00.000Z",
+      "endTime": "1970-01-01T03:07:00.000Z",
+      "date": "2024-06-19",
+      "total": "328.38"
+    },
+    {
+      "id": "4527494713084179",
+      "idField": "dyxcAQs",
+      "idUser": "9693",
+      "startTime": "1970-01-01T03:09:00.000Z",
+      "endTime": "1970-01-01T04:09:00.000Z",
+      "date": "2024-06-28",
+      "total": "32.00"
+    },
+    {
+      "id": "4110967382687214",
+      "idField": "g6Inzrx",
+      "idUser": "3",
+      "startTime": "1970-01-01T03:41:00.000Z",
+      "endTime": "1970-01-01T04:41:00.000Z",
+      "date": "2024-06-13",
+      "total": "324.00"
+    },
+    {
+      "id": "20367365446040386",
+      "idField": "rdsFn9p",
+      "idUser": "3",
+      "startTime": "1970-01-01T04:44:00.000Z",
+      "endTime": "1970-01-01T05:44:00.000Z",
+      "date": "2024-06-13",
+      "total": 161.5
+    },
+    {
+      "id": "4339142524035984",
+      "idField": "1",
+      "idUser": "9693",
+      "startTime": "1970-01-01T05:35:00.000Z",
+      "endTime": "1970-01-01T06:36:00.000Z",
+      "date": "2024-06-21",
+      "total": 12.2
+    },
+    {
+      "id": "4264482777848342",
+      "idField": "12",
+      "idUser": "9693",
+      "startTime": "1970-01-01T05:36:00.000Z",
+      "endTime": "1970-01-01T06:37:00.000Z",
+      "date": "2024-06-21",
+      "total": 6.355
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Juan",
+      "lastname": "Pérez",
+      "age": 30,
+      "role": "rentor",
+      "email": "juan@example.com",
+      "password": "123"
+    },
+    {
+      "id": "2",
+      "name": "María",
+      "lastname": "Gómez",
+      "age": 25,
+      "role": "propietario",
+      "email": "mari@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "3",
+      "name": "Henry",
+      "lastname": "González",
+      "age": 35,
+      "role": "rentor",
+      "email": "henry@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "9693",
+      "name": "john",
+      "lastname": "at",
+      "age": 21,
+      "role": "rentor",
+      "email": "john@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "7de1",
+      "name": "sebastian",
+      "lastname": "mendez",
+      "age": 19,
+      "role": "propietario",
+      "email": "sebaditas@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "1a53",
+      "name": "free",
+      "lastname": "free",
+      "age": 22,
+      "role": "propietario",
+      "email": "free@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "3574",
+      "name": "ali",
+      "lastname": "ra",
+      "age": 23,
+      "role": "propietario",
+      "email": "ali@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "21054178708108817",
+      "name": "pat",
+      "lastname": "mere",
+      "age": 21,
+      "role": "rentor",
+      "email": "pat@gmail.com",
+      "password": "123"
+    }
+  ],
+  "card": [
+    {
+      "id": "1716599584945",
+      "cardNumber": "4908765432109887",
+      "expiryDate": "2029-04-29",
+      "cardHolder": "Sebaditas",
+      "cardIssuer": "MASTERCARD",
+      "cvv": "098",
+      "userId": "7de1",
+      "balance": 80
+    },
+    {
+      "id": "1716645590245",
+      "cardNumber": "4908765432109890",
+      "expiryDate": "2029-08-20",
+      "cardHolder": "John",
+      "cardIssuer": "MASTERCARD",
+      "cvv": "090",
+      "userId": "9693",
+      "balance": 5.670000000000016
+    },
+    {
+      "id": "1716645590246",
+      "cardNumber": "1234242345",
+      "expiryDate": "2024-06-14",
+      "cardHolder": "john",
+      "cardIssuer": "visa",
+      "cvv": "123",
+      "userId": "9693",
+      "balance": 544.355
+    },
+    {
+      "id": "09054631257275458",
+      "cardNumber": "2423543",
+      "expiryDate": "2024-07-06",
+      "cardHolder": "pat",
+      "cardIssuer": "visa",
+      "cvv": "345",
+      "userId": "21054178708108817",
+      "balance": 23384
+    },
+    {
+      "id": "5707996875750458",
+      "cardNumber": "21321423",
+      "expiryDate": "2024-06-20",
+      "cardHolder": "John",
+      "cardIssuer": "visa",
+      "cvv": "456",
+      "userId": "9693",
+      "balance": 861.42
+    },
+    {
+      "id": "41910782506474176",
+      "cardNumber": "453453421",
+      "expiryDate": "3222-03-12",
+      "cardHolder": "Sparky",
+      "cardIssuer": "visa",
+      "cvv": "456",
+      "userId": "3",
+      "balance": 678.5
+    },
+    {
+      "id": "979410821169246",
+      "cardNumber": "12323423",
+      "expiryDate": "2024-06-20",
+      "cardHolder": "Sebas",
+      "cardIssuer": "visa",
+      "cvv": "123",
+      "userId": "7de1",
+      "balance": 4930
+    },
+    {
+      "id": "4783956697362306",
+      "cardNumber": "1111",
+      "expiryDate": "2024-06-22",
+      "cardHolder": "yop",
+      "cardIssuer": "visa",
+      "cvv": "123",
+      "userId": "9693",
+      "balance": 4512
+    }
+  ],
+  "subscription": [
+    {
+      "userId": "9693",
+      "plan": "premium",
+      "id": "6"
+    },
+    {
+      "id": "7",
+      "userId": "7de1",
+      "plan": "premium"
+    },
+    {
+      "id": "8",
+      "userId": "3",
+      "plan": "premium"
+    },
+    {
+      "id": "25915854832221674",
+      "userId": "981928385599522",
+      "plan": "free"
+    },
+    {
+      "id": "5027674814441243",
+      "userId": "21054178708108817",
+      "plan": "premium"
+    }
+  ]
+}
