@@ -1813,7 +1813,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   
   #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-back.azurewebsites.net/api/v1/{llamado_de_apis} (Ver anexos)
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend.azurewebsites.net/api/v1/{llamado_de_apis} (Ver anexos)
   
   #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1988,7 +1988,7 @@ https://dtaquito-landing-page.netlify.app/
 
 Enlace al deploy del backend:
 
-https://dtaquito-back.azurewebsites.net/api/v1/
+https://dtaquito-backend.azurewebsites.net/
 
 Ahi van las api rest que desea solicitar, se prueban con postman o con swagger (users, suscriptions, payments, reservations, sport-spaces)
 
