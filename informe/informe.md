@@ -215,15 +215,33 @@
       - 5.2.1.6. [Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review) <br>
       - 5.2.1.7. [Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review) <br>
       - 5.2.1.8. [Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint) <br>
-    - 5.2.1. [Sprint 2](#522-sprint-2) <br>
-      - 5.2.1.1. [Sprint Planning 2](#5221-sprint-planning-2) <br>
-      - 5.2.1.2. [Sprint Backlog 2](#5222-sprint-backlog-2) <br>
-      - 5.2.1.3. [Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review) <br>
-      - 5.2.1.4. [Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review) <br>
-      - 5.2.1.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review) <br>
-      - 5.2.1.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review) <br>
-      - 5.2.1.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review) <br>
-      - 5.2.1.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint) <br>
+    - 5.2.2. [Sprint 2](#522-sprint-2) <br>
+      - 5.2.2.1. [Sprint Planning 2](#5221-sprint-planning-2) <br>
+      - 5.2.2.2. [Sprint Backlog 2](#5222-sprint-backlog-2) <br>
+      - 5.2.2.3. [Development Evidence for Sprint Review](#5223-development-evidence-for-sprint-review) <br>
+      - 5.2.2.4. [Testing Suite Evidence for Sprint Review](#5224-testing-suite-evidence-for-sprint-review) <br>
+      - 5.2.2.5. [Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review) <br>
+      - 5.2.2.6. [Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review) <br>
+      - 5.2.2.7. [Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review) <br>
+      - 5.2.2.8. [Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint) <br>
+    - 5.2.3. [Sprint 3](#523-sprint-3) <br>
+      - 5.2.3.1. [Sprint Planning 3](#5231-sprint-planning-3) <br>
+      - 5.2.3.2. [Sprint Backlog 3](#5232-sprint-backlog-3) <br>
+      - 5.2.3.3. [Development Evidence for Sprint Review](#5233-development-evidence-for-sprint-review) <br>
+      - 5.2.3.4. [Testing Suite Evidence for Sprint Review](#5234-testing-suite-evidence-for-sprint-review) <br>
+      - 5.2.3.5. [Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review) <br>
+      - 5.2.3.6. [Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review) <br>
+      - 5.2.3.7. [Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review) <br>
+      - 5.2.3.8. [Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint) <br>
+    - 5.2.4. [Sprint 4](#524-sprint-4) <br>
+      - 5.2.4.1. [Sprint Planning 4](#5241-sprint-planning-4) <br>
+      - 5.2.4.2. [Sprint Backlog 4](#5242-sprint-backlog-4) <br>
+      - 5.2.4.3. [Development Evidence for Sprint Review](#5243-development-evidence-for-sprint-review) <br>
+      - 5.2.4.4. [Testing Suite Evidence for Sprint Review](#5244-testing-suite-evidence-for-sprint-review) <br>
+      - 5.2.4.5. [Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review) <br>
+      - 5.2.4.6. [Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review) <br>
+      - 5.2.4.7. [Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review) <br>
+      - 5.2.4.8. [Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint) <br>
   - 5.3. [Validation Interviews](#53-validation-interviews) <br>
     - 5.3.1. [Diseño de Entrevistas](#531-diseño-de-entrevistas) <br>
     - 5.3.2. [Registro de Entrevistas](#532-registro-de-entrevistas) <br>
@@ -1813,7 +1831,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   
   #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend.azurewebsites.net/api/v1/{llamado_de_apis} (Ver anexos)
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html (Ver anexos)
   
   #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1824,6 +1842,79 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   - **Implementación de servicios y APIs, y presentación del progreso:** Se implementaron servicios y APIs críticos, presentando el progreso del proyecto en reuniones de sprint y recibiendo retroalimentación de los interesados para mejorar la funcionalidad y eficiencia del backend. (John Atencio)
 
   - **Mejoramiento de lógica y desarrollo de componentes en la API:** Se optimizaron los métodos de la API, mejorando la lógica interna para aumentar la eficiencia. Además, se desarrollaron varios componentes nuevos para enriquecer las funcionalidades existentes del backend. (Sebastián Méndez)
+
+### 5.2.4. Sprint 4
+  #### 5.2.4.1. Sprint Planning 4
+
+  |Sprint 4|Sprint 4|
+| :-: | :-: |
+|Sprint Planning Background||
+|Date|2024-06-06|
+|Time|6:45 PM|
+|Location|Reunion virtual mediante videoconferencia.|
+|Prepared by|Mendez Lopez, Sebastian Alonso|
+|Attendees (to planning meeting)|Mendez Lopez, Sebastian Alonso / Atencio Castillo, John Alexis / Centurion Quintana, Henry Manuel / Frisancho Levano, Sebastian Mathias|
+|**Sprint 3 Review Summary**|Se realizo en su mayoria lo planeado del desarrollo del backend, implementando en gran parte las technical stories propuestas.|
+|**Sprint 3 Retrospective Summary**|Debemos tener mejor organizacion, para asi poder completar e implementar las user stories restantes en nuestro sprint.|
+|**Sprint Goal & User Stories**||
+|Sprint 4 Goal|La implementación de la versión final del backend.|
+|Sprint 4 Velocity|10|
+|Sum of Story Points|15|
+
+  #### 5.2.4.2. Sprint Backlog 4
+
+| **ID** | **Title**                                        | **ID of Assignment** | **Title of Assignment**                              | **Description**                                             | **Estimation (Hours)** | **Assigned by** | **Status**    |
+| ---   | ----------------------------------------------- | ------------------- | ---------------------------------------------- | ---------------------------------------------------- | --------------------- | --------------- | ------------ |
+|TS04|Implementar endpoints para la gestión de roles y permisos de usuario|T01|Implementar endpoints para gestionar roles y permisos de usuario|Implementar endpoints en el API para administrar roles y permisos de usuario.|3|J. Atencio|Done|
+|TS06|Validación de datos de entrada|T01|Implementar validación de datos de entrada en los endpoints|Implementar validación de datos de entrada en los endpoints de la API.|2|S. Mendez|Done|
+|TS09|Implementar funcionalidad de inicio de sesión seguro|T01|Implementar endpoint para inicio de sesión seguro|Implementar un endpoint en el API para que los usuarios inicien sesión de forma segura.|2|S. Mendez|Done|
+|TS07|Seguridad y protección de datos|T01|Implementar medidas de seguridad y protección de datos|Implementar medidas de seguridad para proteger la información del usuario.|3|S. Frisancho|Done|
+|TS10|Agregar funcionalidad de recuperación de contraseña|T01|Implementar endpoint para recuperación de contraseña|Implementar un endpoint en el API para la recuperación de contraseña.|2|H. Centurion|To-Do|
+|TS03|Gestionar calificaciones y comentarios de usuarios|T01|Implementar endpoints para gestionar calificaciones y comentarios de usuarios|Implementar endpoints en el API para que los usuarios califiquen y dejen comentarios sobre los espacios de juego.|3|S. Mendez|To-Do|
+  
+  #### 5.2.4.3. Development Evidence for Sprint Review
+
+  | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
+  |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
+  | github.com/HenryCenturion/web-application-final-project                      | feature/web-service    | ebdb123                                 | Initial commit       | Empty | 09/06/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/web-service    | 512h789                                 | feat: Upload services-web folder       | New techincal stories for the backend | 09/06/2024 |
+  
+  #### 5.2.4.4. Testing Suite Evidence for Sprint Review
+  Para el caso, hemos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
+
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing4.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing5.png" alt="UPC">
+
+  #### 5.2.4.5. Execution Evidence for Sprint Review
+  Para el caso, estamos evidenciando la ejecucion correcta de nuestro backend, de tal manera que se evidencia algunas de las funcionalidades de esta misma, al igual que la realizacion de algunos querys.
+
+   <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee3.png" alt="UPC">
+  
+  #### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+  Para el caso, ya hemos implementado los datos de nuestra aplicacion en la base de datos, usando una base de datos relacional con la herramienta mySQL, para poder ver nuestros campos, ademas desarrollamos nuestro backend con el lenguaje java.
+
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence3.png" alt="UPC">
+  
+  #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html (Ver anexos)
+  
+  #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+**Refinamiento de requisitos y mejora de la arquitectura del sistema:** Se completó el análisis de los resultados de las entrevistas para refinar los requisitos del backend, mejorando la arquitectura del sistema y la estructura de la base de datos. (Henry Centurion)
+
+**Pruebas de integración y optimización del rendimiento:** Se llevaron a cabo pruebas exhaustivas de integración y rendimiento en el backend, evaluando y optimizando su funcionamiento para garantizar una experiencia de usuario fluida y eficiente. (Sebastián Frisancho)
+
+**Revisión de código y aseguramiento de calidad:** Se coordinó una revisión exhaustiva de código entre pares, asegurando la calidad y consistencia del código backend del proyecto, y facilitando sesiones de retroalimentación técnica para mejoras continuas. (Henry Centurion)
+
+**Implementación de servicios y APIs, y presentación del progreso:** Se implementaron todos los servicios y APIs críticos, presentando continuamente el progreso del proyecto en reuniones de sprint y recibiendo retroalimentación de los interesados para perfeccionar la funcionalidad y eficiencia del backend. (John Atencio)
+
+**Mejoramiento de lógica y desarrollo de componentes en la API:** Se optimizaron los métodos de la API, mejorando la lógica interna para maximizar la eficiencia. Además, se desarrollaron e integraron nuevos componentes para enriquecer las funcionalidades existentes del backend. (Sebastián Méndez)
 
 ## 5.3. Validation Interviews
 
@@ -1987,13 +2078,12 @@ Enlace al deploy del landing page:
 https://dtaquito-landing-page.netlify.app/
 
 Enlace al deploy del backend:
-
-https://dtaquito-backend.azurewebsites.net/
+https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html
 
 Ahi van las api rest que desea solicitar, se prueban con postman o con swagger (users, suscriptions, payments, reservations, sport-spaces)
 
 Enlace al deploy del front web:
-https://dtaquito-new-front-web.netlify.app/home
+http://dtaquitoo.netlify.app/home
 
 Enlace al repositorio en Github:
 https://github.com/HenryCenturion/web-application-final-project
