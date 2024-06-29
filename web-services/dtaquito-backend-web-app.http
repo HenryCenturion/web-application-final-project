@@ -1,0 +1,6 @@
+@dtaquito_backend_web_app_HostAddress = https://dtaquito-backend-web-app.azurewebsites.net
+
+GET {{dtaquito_backend_web_app_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
