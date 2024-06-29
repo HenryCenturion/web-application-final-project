@@ -1895,9 +1895,9 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
 
   Para el caso, ya hemos mejorado el uso del Swagger, además de su visualizacion global
 
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger1.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger2.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger3.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//swagger1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//swagger2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//swagger3.png" alt="UPC">
   
   #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
