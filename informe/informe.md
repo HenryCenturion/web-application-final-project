@@ -1678,7 +1678,7 @@ Header:
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment en el servicio de Netlify. Enlace: https://dtaquito-landing-page.netlify.app/  
+  - Se realizo el deployment en el servicio de Netlify. Enlace: https://667f4b535561429bf769a2d4--dtaquito-new-landing-page.netlify.app/  
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -1737,7 +1737,7 @@ Header:
   #### 5.2.2.3. Development Evidence for Sprint Review
 | **Repository** | **Branch** | **Commit ID** | **Commit Message** | **Commit Message Body** | **Committed On (Date)** |
 | --- | --- | --- | --- | --- | --- |
-| github.com/HenryCenturion/web-application-final-project| feature/front-web-aplication  | | feat: | | 03/05/2024 |
+| github.com/HenryCenturion/web-application-final-project| feature/front-web-aplication  | 7141941| feat: feat: Upload last frontend version|empty| 29/06/2024 |
   
   #### 5.2.2.4. Testing Suite Evidence for Sprint Review
   Para el caso, emos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
@@ -1808,7 +1808,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
 
   | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
   |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
-  | github.com/HenryCenturion/web-application-final-project                       | feature/web-service    |                                  | feat: Upload services-web folder       | Folder for the files of the web services first version | 09/06/2024 |
+  | github.com/HenryCenturion/web-application-final-project                       | feature/web-services    |              a97b103                    | feat: Upload services-web folder       | Empty | 29/06/2024 |
   
   #### 5.2.3.4. Testing Suite Evidence for Sprint Review
   Para el caso, hemos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
@@ -1831,7 +1831,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   
   #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html (Ver anexos)
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend.azurewebsites.net/swagger-ui/index.html#/ (Ver anexos)
   
   #### 5.2.3.8. Team Collaboration Insights during Sprint
 
@@ -1854,7 +1854,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
 |Location|Reunion virtual mediante videoconferencia.|
 |Prepared by|Mendez Lopez, Sebastian Alonso|
 |Attendees (to planning meeting)|Mendez Lopez, Sebastian Alonso / Atencio Castillo, John Alexis / Centurion Quintana, Henry Manuel / Frisancho Levano, Sebastian Mathias|
-|**Sprint 3 Review Summary**|Se realizo en su mayoria lo planeado del desarrollo del backend, implementando en gran parte las technical stories propuestas.|
+|**Sprint 3 Review Summary**|Se realizo en su mayoria lo planeado del desarrollo del backend, implementando technical stories restantes para seguridad.|
 |**Sprint 3 Retrospective Summary**|Debemos tener mejor organizacion, para asi poder completar e implementar las user stories restantes en nuestro sprint.|
 |**Sprint Goal & User Stories**||
 |Sprint 4 Goal|La implementación de la versión final del backend.|
@@ -1876,8 +1876,7 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
 
   | Repository                       | Branch    | Commit Id                                 | Commit Message       | Commit Message Body | Commited on (Date) |
   |-------------------------------|-----------------------------------|-------------------------------------|------------------------------------------------|---------------------------------------------------------------------------------------------------|------------------------|
-  | github.com/HenryCenturion/web-application-final-project                      | feature/web-service    | ebdb123                                 | Initial commit       | Empty | 09/06/2024 |
-  | github.com/HenryCenturion/web-application-final-project                       | feature/web-service    | 512h789                                 | feat: Upload services-web folder       | New techincal stories for the backend | 09/06/2024 |
+| github.com/HenryCenturion/web-application-final-project                       | feature/web-services    | f583861                                 | feat: Upload new services-web folder       | | 29/06/2024 |
   
   #### 5.2.4.4. Testing Suite Evidence for Sprint Review
   Para el caso, hemos presentado evidencia de nuestro codigo, referenciando asi algunas de las secciones en las cuales disponemos, ademas de la organizacion de las carpetas.
@@ -1886,35 +1885,35 @@ Para el caso, estamos evidenciando la ejecucion correcta de nuestra aplicacion w
   <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//testing5.png" alt="UPC">
 
   #### 5.2.4.5. Execution Evidence for Sprint Review
-  Para el caso, estamos evidenciando la ejecucion correcta de nuestro backend, de tal manera que se evidencia algunas de las funcionalidades de esta misma, al igual que la realizacion de algunos querys.
+  Para el caso, estamos evidenciando la ejecucion correcta de nuestro backend, de tal manera que se evidencia mejoranmiento del frontend.
 
-   <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee1.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee2.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//executee3.png" alt="UPC">
+   <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//newfront1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//newfront2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//newfront3.png" alt="UPC">
   
   #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
-  Para el caso, ya hemos implementado los datos de nuestra aplicacion en la base de datos, usando una base de datos relacional con la herramienta mySQL, para poder ver nuestros campos, ademas desarrollamos nuestro backend con el lenguaje java.
+  Para el caso, ya hemos mejorado el uso del Swagger, además de su visualizacion global
 
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence1.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence2.png" alt="UPC">
-  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-evidence3.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger1.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger2.png" alt="UPC">
+  <img src="https://raw.githubusercontent.com//HenryCenturion//web-application-final-project//develop//informe//images//doc-swagger3.png" alt="UPC">
   
   #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
-  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html (Ver anexos)
+  - Se realizo el deployment del backend de el servicio de D´taquito. Enlace: https://dtaquito-backend.azurewebsites.net/swagger-ui/index.html#/ (Ver anexos)
   
   #### 5.2.4.8. Team Collaboration Insights during Sprint
 
-**Refinamiento de requisitos y mejora de la arquitectura del sistema:** Se completó el análisis de los resultados de las entrevistas para refinar los requisitos del backend, mejorando la arquitectura del sistema y la estructura de la base de datos. (Henry Centurion)
+**Refinamiento de requisitos y mejora de la arquitectura del sistema:** Se completó el análisis de las entrevistas para ajustar los requisitos del backend, mejorando la arquitectura del sistema y la estructura de la base de datos. (Henry Centurion)
 
-**Pruebas de integración y optimización del rendimiento:** Se llevaron a cabo pruebas exhaustivas de integración y rendimiento en el backend, evaluando y optimizando su funcionamiento para garantizar una experiencia de usuario fluida y eficiente. (Sebastián Frisancho)
+**Pruebas de integración y optimización del rendimiento:** Se realizaron pruebas integrales de integración y rendimiento en el backend, evaluando y optimizando su funcionamiento para asegurar una experiencia de usuario fluida y eficiente. (Sebastián Frisancho)
 
-**Revisión de código y aseguramiento de calidad:** Se coordinó una revisión exhaustiva de código entre pares, asegurando la calidad y consistencia del código backend del proyecto, y facilitando sesiones de retroalimentación técnica para mejoras continuas. (Henry Centurion)
+**Revisión de código y aseguramiento de calidad:** Se llevó a cabo una revisión detallada del código entre pares, garantizando la calidad y consistencia del código del backend del proyecto, y organizando sesiones de retroalimentación técnica para mejoras continuas. (Henry Centurion)
 
-**Implementación de servicios y APIs, y presentación del progreso:** Se implementaron todos los servicios y APIs críticos, presentando continuamente el progreso del proyecto en reuniones de sprint y recibiendo retroalimentación de los interesados para perfeccionar la funcionalidad y eficiencia del backend. (John Atencio)
+**Implementación de servicios y APIs, y presentación del progreso:** Se implementaron todos los servicios y APIs esenciales, presentando el progreso del proyecto en reuniones de sprint y recibiendo retroalimentación de los interesados para perfeccionar la funcionalidad y eficiencia del backend. (John Atencio)
 
-**Mejoramiento de lógica y desarrollo de componentes en la API:** Se optimizaron los métodos de la API, mejorando la lógica interna para maximizar la eficiencia. Además, se desarrollaron e integraron nuevos componentes para enriquecer las funcionalidades existentes del backend. (Sebastián Méndez)
+**Mejoramiento de lógica y desarrollo de componentes en la API:** Se optimizaron los métodos de la API, mejorando la lógica interna para maximizar la eficiencia. Además, se desarrollaron e integraron nuevos componentes para enriquecer las funcionalidades del backend. (Sebastián Méndez)
 
 ## 5.3. Validation Interviews
 
@@ -2075,15 +2074,13 @@ Enlace a figma:
 https://www.figma.com/file/9b5VMPb1CCHGYuWQkP2554/UX-Design?type=design&node-id=0%3A1&mode=design&t=K3kzNMJ1UGVbxDsc-1
 
 Enlace al deploy del landing page:
-https://dtaquito-landing-page.netlify.app/
+https://667f4b535561429bf769a2d4--dtaquito-new-landing-page.netlify.app/
 
 Enlace al deploy del backend:
-https://dtaquito-backend-web-app.azurewebsites.net/swagger/index.html
-
-Ahi van las api rest que desea solicitar, se prueban con postman o con swagger (users, suscriptions, payments, reservations, sport-spaces)
+https://dtaquito-backend.azurewebsites.net/swagger-ui/index.html#/
 
 Enlace al deploy del front web:
-http://dtaquitoo.netlify.app/home
+https://dtaquito-page.netlify.app/
 
 Enlace al repositorio en Github:
 https://github.com/HenryCenturion/web-application-final-project
