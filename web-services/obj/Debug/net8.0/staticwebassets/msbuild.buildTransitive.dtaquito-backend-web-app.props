@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\dtaquito-backend-web-app.props" />
+</Project>

@@ -1,0 +1,610 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "dtaquito-backend-web-app, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/v1/payments": {
+      "post": {
+        "tags": [
+          "Payment"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreatePaymentResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/payments/{id}": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/payments/user/{userId}": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "userId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/reservations": {
+      "post": {
+        "tags": [
+          "Reservation"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateReservationResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/reservations/{id}": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/reservations/user/{userId}": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "userId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/sport-spaces": {
+      "post": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateSportSpacesResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/sport-spaces/{id}": {
+      "get": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateSportSpacesResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/sport-spaces/user/{userId}": {
+      "get": {
+        "tags": [
+          "SportSpaces"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "userId",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/suscriptions/{id}": {
+      "get": {
+        "tags": [
+          "Suscription"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Suscription"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateSuscriptionResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/users": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateUserResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "email",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "password",
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/v1/users/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "User"
+        ],
+        "consumes": [
+          "application/json-patch+json",
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/CreateUserResource"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "CreatePaymentResource": {
+      "type": "object",
+      "properties": {
+        "cardNumber": {
+          "type": "string"
+        },
+        "expirationDate": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "cardHolder": {
+          "type": "string"
+        },
+        "cardIssuer": {
+          "type": "string"
+        },
+        "cvv": {
+          "type": "string"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "balance": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CreateReservationResource": {
+      "type": "object",
+      "properties": {
+        "time": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "hours": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "sportSpaceId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CreateSportSpacesResource": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "price": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "description": {
+          "type": "string"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "startTime": {
+          "type": "string"
+        },
+        "endTime": {
+          "type": "string"
+        },
+        "rating": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CreateSuscriptionResource": {
+      "type": "object",
+      "properties": {
+        "planId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "userId": {
+          "format": "int32",
+          "type": "integer"
+        }
+      },
+      "additionalProperties": false
+    },
+    "CreateUserResource": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "roleId": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
