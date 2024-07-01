@@ -72,22 +72,22 @@
     <th valign="top">Conclusiones</th>
   </tr>
   <tr>
-    <td rowspan="5" valign="top">Demuestra capacidad de comunicarse efectivamente con un rango de audiencias</td>
+    <td rowspan="5" valign="top">Trabaja efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo; crea un entorno colaborativo e inclusivo y establece metas, planifica tareas y cumple objetivos</td>
     <td valign="top">
       TB1: John Atencio: Realicé el proyecto en general junto con mis compañeros, aplicando comunicación. Desarrolle el modelo C4 junto con el diagrama de clases y base de datos
       <br><br>
       TP: John Atencio: Coordinar y organizar reuniones con el equipo para mejorar la comunicación y el flujo de información durante el desarrollo del proyecto.
       <br><br>
       TB2: John Atencio: Implementé servicios y APIs, y presenté el progreso del proyecto, recibiendo retroalimentación de los interesados para mejorar la funcionalidad backend.
+      <br><br>
+      TF: John Atencio: Realicé revisiones exhaustivas de los servicios y APIs implementados, presentando el progreso del proyecto en las reuniones finales. La retroalimentación recibida de los interesados se utilizó para perfeccionar y optimizar la funcionalidad del backend.
     </td>
     <td rowspan="5" valign="middle">
-      En nuestras conclusiones, hemos puesto énfasis en el valor y la importancia de la comunicación efectiva dentro de nuestro equipo. Este énfasis se ha centrado en la aplicación práctica de habilidades técnicas específicas que han demostrado ser fundamentales para mejorar nuestra interacción y colaboración.
+      En nuestras conclusiones, hemos reconocido la importancia de establecer un entorno colaborativo e inclusivo dentro de nuestro equipo. Nos hemos centrado en la planificación efectiva de metas y tareas, así como en la consecución de objetivos compartidos. Destacamos la comunicación abierta y constante como clave para el éxito, facilitando así la coordinación efectiva y la resolución de desafíos de manera colaborativa. Asimismo, hemos valorado la flexibilidad y adaptabilidad como elementos cruciales para ajustarnos a cambios y nuevas circunstancias durante el desarrollo del proyecto.
       <br><br>
-      En primer lugar, hemos reconocido la necesidad de adaptabilidad en nuestra comunicación, lo que implica la capacidad de ajustar nuestro estilo y enfoque según el contexto y las preferencias individuales de nuestros compañeros. Esta adaptabilidad se refleja en la elección adecuada de los medios de comunicación, así como en la flexibilidad para modificar nuestra estrategia de comunicación cuando surgen nuevas circunstancias o necesidades.
+      Además, hemos aprendido que la claridad en la asignación de roles y responsabilidades ha sido fundamental para mantener la eficiencia y la motivación del equipo. Al establecer expectativas claras y asegurar una distribución equitativa de las tareas, hemos promovido un ambiente donde cada miembro puede contribuir de manera significativa y sentirse parte integral del proceso. Esta estructura organizativa no solo ha fortalecido nuestra capacidad para alcanzar nuestros objetivos, sino que también ha fomentado un sentido de comunidad y compromiso compartido entre todos los miembros del equipo.
       <br><br>
-      En segundo lugar, hemos enfatizado la importancia de la claridad en nuestros mensajes. Esto implica la habilidad de expresar nuestras ideas de manera concisa y comprensible, evitando ambigüedades y malentendidos. Para lograr esto, nos esforzamos por utilizar un lenguaje claro y directo, estructurando nuestra información de manera lógica y proporcionando ejemplos concretos cuando sea necesario para mejorar la comprensión.
-      <br><br>
-      Por último, pero no menos importante, hemos destacado el valor de la transparencia en nuestras interacciones. Reconocemos que compartir información de manera abierta y honesta es fundamental para construir relaciones de confianza y fomentar un ambiente de trabajo colaborativo. Al mantener un flujo constante de información y estar receptivos a las opiniones y preocupaciones de los demás miembros del equipo, fortalecemos nuestra capacidad para trabajar juntos de manera efectiva hacia nuestros objetivos comunes.
+Por último, hemos valorado la importancia de la reflexión continua y la retroalimentación constructiva como herramientas para mejorar nuestro desempeño colectivo. Al evaluar regularmente nuestro progreso y recibir comentarios tanto internos como externos, hemos sido capaces de identificar áreas de mejora y adaptar nuestras estrategias para maximizar nuestra efectividad y lograr resultados más sólidos y satisfactorios.
     </td>
   </tr>
   <tr>
@@ -97,6 +97,8 @@
       TP: Henry Centurion: He dirigido el ordenamiento del codigo para lograr el domain design.
       <br><br>
       TB2: Henry Centurion: Coordiné la revisión de código entre pares para asegurar la calidad y consistencia del código backend del proyecto.
+      <br><br>
+      TF: Henry Centurion: Coordiné la revisión de código entre el grupo para asegurar la máxima calidad y consistencia en el código backend, contribuyendo a la robustez y fiabilidad del sistema.
     </td>
   </tr>
   <tr>
@@ -106,6 +108,8 @@
       TP: Sebastián Frisancho: Estuve viendo las partes del logeo y autorización el usuario
       <br><br>
       TB2: Sebastián Frisancho: Realicé pruebas de integración y rendimiento para evaluar y optimizar el funcionamiento del backend.
+      <br><br>
+      TF: Sebastián Frisancho: Realicé pruebas exhaustivas de integración y rendimiento, evaluando y optimizando el funcionamiento del backend para garantizar una experiencia de usuario óptima y eficiente.
     </td>
   </tr>
   <tr>
@@ -115,6 +119,8 @@
       TP: Sebastián Mendez: Estuve desarrollando casi gran parte de los componentes y web front applications.
       <br><br>
       TB2: Sebastián Mendez: Facilitó sesiones de retroalimentación para evaluar el progreso y desarrolle gran parte del backend.
+      <br><br>
+      TF: Sebastián Mendez: Facilité sesiones de retroalimentación para evaluar el progreso y desarrollé gran parte del backend. Además, implementé el sistema de Gestión de Identidades y Accesos (IAM) para fortalecer la seguridad y el control de acceso del sistema.
     </td>
   </tr>
 </table>
@@ -129,6 +135,7 @@
   | 1.0 | 14-04-24 | Grupo Tecny | Completado los 5 capitulos del informe y la elaboracion de la primera version del landing page. |
   | 2.0| 03-05-24 | Grupo Tecny | Correcciones anteriores y elaboracion de la primera version del front web application. |
   | 3.0| 10-06-24 | Grupo Tecny | Correcciones anteriores y elaboracion de la primera version del web services. |
+  | 3.0| 29-06-24 | Grupo Tecny | Correcciones anteriores elaboración de los artefactos finales. |
 
 ### Capitulos <br>
   [Capitulo I - Introduction](#i-introduccion) <br>
