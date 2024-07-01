@@ -135,7 +135,7 @@ Por último, hemos valorado la importancia de la reflexión continua y la retroa
   | 1.0 | 14-04-24 | Grupo Tecny | Completado los 5 capitulos del informe y la elaboracion de la primera version del landing page. |
   | 2.0| 03-05-24 | Grupo Tecny | Correcciones anteriores y elaboracion de la primera version del front web application. |
   | 3.0| 10-06-24 | Grupo Tecny | Correcciones anteriores y elaboracion de la primera version del web services. |
-  | 3.0| 29-06-24 | Grupo Tecny | Correcciones anteriores elaboración de los artefactos finales. |
+  | 4.0| 29-06-24 | Grupo Tecny | Correcciones anteriores elaboración de los artefactos finales. |
 
 ### Capitulos <br>
   [Capitulo I - Introduction](#i-introduccion) <br>
